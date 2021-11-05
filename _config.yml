@@ -1,6 +1,7 @@
 # Config
-# ========================================================================================
+# ==============================================================================
 
+# Site URL
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
 url:                   https://fasterius.github.io
@@ -13,11 +14,11 @@ baseurl:               ''
 
 
 # General settings
-# ---------------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:                  en
+lang:                  en-gb
 
 # The title of your blog. Used in the sidebar and the browser tab.
 title:                 Erik Fasterius
@@ -28,10 +29,10 @@ description:           >
     This is my website, showing some things about me.
 
 # A shorter description for the sidebar.
-tagline:               Bioinformatician, scientist, developer.
+tagline:               Bioinformatician, scientist, developer
 
 # A list of keywords for your blog
-keywords:              [bioinformatics, science,]
+keywords:              [bioinformatics, science, development]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -77,15 +78,15 @@ paginate_path:         /:num/
 
 
 # Theme
-# ---------------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 
 theme: jekyll-theme-hydejack
 remote_theme: hydecorp/hydejack@v9.1.4
 
 
 # Customizaton
-# ----------------------------------------------------------------------------------------
- 
+# ------------------------------------------------------------------------------
+
 # Sidebar image and theme color of the site.
 accent_image:          /assets/img/sidebar-bg.jpg
 accent_color:          rgb(79,177,186)
@@ -165,7 +166,7 @@ kramdown:
 
 
 # 3rd Party Integrations
-# ----------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
@@ -181,7 +182,7 @@ kramdown:
 
 
 # Hydejack Settings
-# ----------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
 # These settings are specific to Hydejack.
 
 hydejack:
@@ -214,7 +215,7 @@ hydejack:
   # This will increase site build speed dramatically!
   no_inline_css:       false
 
-  # Set to `true` if you don't intend on changing the accent color on a per-page basis. 
+  # Set to `true` if you don't intend on changing the accent color on a per-page basis.
   # This will increase site build speed!
   no_page_style:       false
 
@@ -257,7 +258,7 @@ hydejack:
 
   # Buyers of the PRO version can opt to hide all dates from the theme.
   # Frequent consumers of online content will know that nothing devalues a post like
-  # seeing an old date. 
+  # seeing an old date.
   hide_dates:          false
 
   # TODO
@@ -286,7 +287,7 @@ hydejack:
 
 
 # Collections
-# ----------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
 
 collections:
   featured_categories:
@@ -303,7 +304,7 @@ collections:
 
 
 # File inclusion/exclusion
-# ----------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
 
 exclude:
   - .jekyll-cache
@@ -318,7 +319,7 @@ include:
 
 
 # Plugins
-# ----------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
 
 plugins:
   - jekyll-default-layout
@@ -337,7 +338,7 @@ plugins:
 
 
 # SEO Tag
-# ---------------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 
 # Where you proof that you own this site (used by jekyll-seo-tag)
 # google_site_verification: <verification-id>
@@ -367,7 +368,7 @@ plugins:
 
 
 # Plugin Configs
-# ---------------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 optional_front_matter:
   remove_originals:    true
 
@@ -393,27 +394,27 @@ sass:
   style:               compressed
 
 # Jekyll Compose Defaults
-# ---------------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 
 jekyll_compose:
   default_front_matter:
     drafts:
       layout: post
-      description: > 
+      description: >
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
         path: /assets/img/sidebar-bg.jpg
     posts:
       layout: post
-      description: > 
+      description: >
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
         path: /assets/img/sidebar-bg.jpg
     projects:
       layout: project
-      description: > 
+      description: >
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
