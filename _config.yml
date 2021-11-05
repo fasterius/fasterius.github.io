@@ -57,14 +57,9 @@ menu:
     url:               /teaching/
 
 # Add links to the footer.
-# Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
-legal:
-  - title:             LICENSE
-    url:               /LICENSE/
-  - title:             NOTICE
-    url:               /NOTICE/
-  - title:             CHANGELOG
-    url:               /CHANGELOG/
+# legal:
+  # - title:             SOME PAGE
+    # url:               /SOME-PAGE/
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             Copyright © 2021 Erik Fasterius. All rights reserved.
