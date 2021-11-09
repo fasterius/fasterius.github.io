@@ -16,10 +16,6 @@ google-plus:
 google-drive:
   name: Google Drive
   icon: icon-google-drive
-google-scholar:
-  name: GoogleScholar
-  icon: icon-google
-  prepend: "https://scholar.google.com/citations?"
 facebook:
   name: Facebook
   icon: icon-facebook
@@ -210,3 +206,11 @@ keybase:
 download:
   name: Download
   icon: icon-box-add
+google-scholar:
+  name: Google Scholar
+  icon: icon-google-scholar
+  prepend: "https://scholar.google.com/citations?"
+orc-id:
+  name: ORCID
+  icon: icon-orcid
+  prepend: "https://orcid.org/my-orcid?orcid="
