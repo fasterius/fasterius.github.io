@@ -1,7 +1,7 @@
 # This file contains meta data for various social media sites
 email:
   name: Email
-  icon: icon-mail
+  icon: icon-mail4
   prepend: 'mailto:'
 amazon:
   name: Amazon
@@ -18,7 +18,7 @@ google-drive:
   icon: icon-google-drive
 google-scholar:
   name: GoogleScholar
-  icon: icon-google2
+  icon: icon-google
   prepend: "https://scholar.google.com/citations?"
 facebook:
   name: Facebook
@@ -162,7 +162,7 @@ wikipedia:
   icon: icon-wikipedia
 linkedin:
   name: LinkedIn
-  icon: icon-linkedin
+  icon: icon-linkedin2
   prepend: "https://www.linkedin.com/in/"
 lastfm:
   name: Last.fm
