@@ -49,8 +49,6 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             About
-    url:               /about/
   - title:             Publications
     url:               /publications/
   - title:             Teaching
