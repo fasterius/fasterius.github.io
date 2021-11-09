@@ -49,10 +49,14 @@ author:
 
 # Add links to the sidebar.
 menu:
+  - title:             Research
+    url:               /research/
   - title:             Publications
     url:               /publications/
   - title:             Teaching
     url:               /teaching/
+  - title:             Education
+    url:               /education/
 
 # Add links to the footer.
 # legal:
