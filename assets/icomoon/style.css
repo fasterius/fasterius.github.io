@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?q43zpl');
-  src:  url('fonts/icomoon.eot?q43zpl#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?q43zpl') format('truetype'),
-    url('fonts/icomoon.woff?q43zpl') format('woff'),
-    url('fonts/icomoon.svg?q43zpl#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?9f6uvw');
+  src:  url('fonts/icomoon.eot?9f6uvw#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?9f6uvw') format('truetype'),
+    url('fonts/icomoon.woff?9f6uvw') format('woff'),
+    url('fonts/icomoon.svg?9f6uvw#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-mail3:before {
+  content: "\e904";
+}
+.icon-mail4:before {
+  content: "\e905";
+}
+.icon-orcid:before {
+  content: "\e901";
+}
+.icon-google-scholar:before {
+  content: "\e900";
+}
 .icon-book:before {
   content: "\e91f";
 }
@@ -202,7 +214,7 @@
 .icon-wikipedia:before {
   content: "\eac8";
 }
-.icon-linkedin21:before {
+.icon-linkedin3:before {
   content: "\eaca";
 }
 .icon-lastfm:before {
@@ -244,20 +256,8 @@
 .icon-box-add:before {
   content: "\e95e";
 }
-.icon-mail:before {
-  content: "\ea84";
-}
-.icon-mail4:before {
+.icon-mail2:before {
   content: "\ea86";
-}
-.icon-google:before {
-  content: "\ea89";
-}
-.icon-google2:before {
-  content: "\ea8c";
-}
-.icon-google3:before {
-  content: "\ea8a";
 }
 .icon-linkedin:before {
   content: "\eac9";
