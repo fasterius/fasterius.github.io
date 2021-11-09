@@ -16,6 +16,10 @@ google-plus:
 google-drive:
   name: Google Drive
   icon: icon-google-drive
+google-scholar:
+  name: GoogleScholar
+  icon: icon-google2
+  prepend: "https://scholar.google.com/citations?"
 facebook:
   name: Facebook
   icon: icon-facebook
@@ -158,7 +162,7 @@ wikipedia:
   icon: icon-wikipedia
 linkedin:
   name: LinkedIn
-  icon: icon-linkedin2
+  icon: icon-linkedin
   prepend: "https://www.linkedin.com/in/"
 lastfm:
   name: Last.fm
