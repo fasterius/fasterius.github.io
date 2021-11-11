@@ -28,12 +28,12 @@ Diseases, 7(3), 231–246.
 
 **[Single-cell RNA-seq variant analysis for exploration of genetic
 heterogeneity in cancer](https://doi.org/10.1038/s41598-019-45934-1),**
-<span class="texthighlight">**Fasterius E**</span>, Uhlén M & Al-Khalili
+<br><span class="texthighlight">**Fasterius E**</span>, Uhlén M & Al-Khalili
 Szigyarto C (2019). Scientific Reports, 9(1), 1–11.
 
 **[SeqCAT: A bioconductor R-package for variant analysis of high throughput
 sequencing data](https://doi.org/10.12688/F1000RESEARCH.16083.2)**,
-<span class="texthighlight">**Fasterius E**</span> & Al-Khalili Szigyarto
+<br><span class="texthighlight">**Fasterius E**</span> & Al-Khalili Szigyarto
 C (2019). F1000Research, 7:1466
 
 **[Transcriptional and metabolic rewiring of colorectal cancer cells expressing
