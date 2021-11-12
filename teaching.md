@@ -48,9 +48,9 @@ I have taught in both classroom and online settings.
 <br>
 
 <center>
-<img src="/assets/img/nbis-logo.svg" alt="NBIS" style="width:100px; padding:10px"/>
-<img src="/assets/img/scilife-logo.png" alt="SciLife" style="width:200px; padding:10px"/>
-<img src="/assets/img/su-logo.png" alt="Stockholm University" style="width:75px; padding:10px"/>
-<img src="/assets/img/elixir-logo.png" alt="ELIXIR" style="width:80px; padding:10px"/>
-<img src="/assets/img/sib-logo.png" alt="SIB" style="width:80px; padding:10px"/>
+<img src="/assets/img/logo-nbis.svg" alt="NBIS" style="width:100px; padding:10px"/>
+<img src="/assets/img/logo-scilife.png" alt="SciLife" style="width:200px; padding:10px"/>
+<img src="/assets/img/logo-su.png" alt="Stockholm University" style="width:75px; padding:10px"/>
+<img src="/assets/img/logo-elixir.png" alt="ELIXIR" style="width:80px; padding:10px"/>
+<img src="/assets/img/logo-sib.png" alt="SIB" style="width:80px; padding:10px"/>
 </center>
