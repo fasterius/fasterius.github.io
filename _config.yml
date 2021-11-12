@@ -55,8 +55,8 @@ menu:
     url:               /publications/
   - title:             Teaching
     url:               /teaching/
-  - title:             Education
-    url:               /education/
+  - title:             Resumé
+    url:               /resume/
 
 # Add links to the footer.
 # legal:
