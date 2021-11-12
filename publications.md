@@ -1,3 +1,4 @@
+# Publications
 
 <!-- Style for highlighting text -->
 <style>
@@ -5,8 +6,6 @@
                       border-radius: 5px;
                       padding: 1px; }
 </style>
-
-# Publications
 
 **[Extensive rewiring of the EGFR network in colorectal cancer cells expressing
 transforming levels of KRASG13D](https://doi.org/10.1038/s41467-019-14224-9){:target="blank"}**,
