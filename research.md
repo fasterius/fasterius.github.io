@@ -6,7 +6,6 @@ development. While I cannot share details of on-going NBIS projects due to
 confidentiality agreements, the non-exhaustive list below will hopefully give
 you an idea of some of the projects that I have and am working on.
 
-
 ## Projects
 
 - Development of a bioinformatic pipeline for Spatial Transcriptomics and
@@ -22,4 +21,4 @@ you an idea of some of the projects that I have and am working on.
 ## PhD Thesis
 
 - [Exploring genetic heterogeneity in cancer using high-throughput DNA and RNA
-  sequencing](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1245671&dswid=-5743)
+  sequencing](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1245671&dswid=-5743){:target="blank"}

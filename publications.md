@@ -3,8 +3,8 @@
 <!-- Style for highlighting text -->
 <style>
     .texthighlight { background-color: #E6E6E6;
-                      border-radius: 5px;
-                      padding: 1px; }
+                     border-radius: 5px;
+                     padding: 1px; }
 </style>
 
 **[Extensive rewiring of the EGFR network in colorectal cancer cells expressing
@@ -34,8 +34,6 @@ Szigyarto C (2019). Scientific Reports, 9(1), 1–11.
 sequencing data](https://doi.org/10.12688/F1000RESEARCH.16083.2){:target="blank"}**,
 <br><span class="texthighlight">**Fasterius E**</span> & Al-Khalili Szigyarto
 C (2019). F1000Research, 7:1466
-
-<!-- <a href= "" target="_blank" -->
 
 **[Transcriptional and metabolic rewiring of colorectal cancer cells expressing
 the oncogenic KRASG13D mutation](https://doi.org/10.1038/s41416-019-0477-7){:target="blank"}**,

@@ -2,47 +2,47 @@
 
 I have been involved in a number of advanced courses related to bioinformatics
 in the last few years. All of the courses are offered to PhD students, post-docs
-and other high-level researchers in Sweden ([NBIS](https://nbis.se/)),
-Switzerland ([SIB](https://www.sib.swiss/)) and other countries in the
-[ELIXIR](https://elixir-europe.org/) network. I am Course Leader for the [Tools
-for Reproducible Research](https://uppsala.instructure.com/courses/51980) NBIS
-course. I am also a certified [Carpentry Instructor](https://software-carpentry.org/).
+and other high-level researchers in Sweden ([NBIS](https://nbis.se/){:target="blank"}),
+Switzerland ([SIB](https://www.sib.swiss/){:target="blank"}) and other countries
+in the [ELIXIR](https://elixir-europe.org/){:target="blank"} network. I am a
+Course Leader for the [Tools for Reproducible Research](https://uppsala.instructure.com/courses/51980){:target="blank"}
+NBIS course. I am also a certified [Carpentry Instructor](https://software-carpentry.org/){:target="blank"}.
 I have taught in both classroom and online settings.
 
 ## 2021
 
-**[Tools for Reproducible Research (autumn)](https://uppsala.instructure.com/courses/51980)**
+**[Tools for Reproducible Research (autumn)](https://uppsala.instructure.com/courses/51980){:target="blank"}**
 <br> NBIS/ELIXIR, Online, 5 days
 
-**[Snakemake Bring-Your-Own-Code Workshop](https://uppsala.instructure.com/courses/52153)**
+**[Snakemake Bring-Your-Own-Code Workshop](https://uppsala.instructure.com/courses/52153){:target="blank"}**
 <br> NBIS/ELIXIR, Online, 3 days
 
-**[Tools for Reproducible Research (spring)](https://nbis-reproducible-research.readthedocs.io/en/course_2104/)**
+**[Tools for Reproducible Research (spring)](https://nbis-reproducible-research.readthedocs.io/en/course_2104/){:target="blank"}**
 <br> NBIS/ELIXIR, Online, 5 days
 
 ## 2020
 
-**[Tools for Reproducible Research (autumn)](https://nbis-reproducible-research.readthedocs.io/en/course_2010/)**
+**[Tools for Reproducible Research (autumn)](https://nbis-reproducible-research.readthedocs.io/en/course_2010/){:target="blank"}**
 <br> NBIS/ELIXIR, Online, 5 days
 
-**[Snakemake Bring-Your-Own-Code Workshop](https://uppsala.instructure.com/courses/52153)**
+**[Snakemake Bring-Your-Own-Code Workshop](https://uppsala.instructure.com/courses/52153){:target="blank"}**
 <br> NBIS/ELIXIR, Online, 3 days
 
-**[RNA Summer School (single cell)](https://sib-swiss.github.io/SchoolRNA2020/)**
+**[RNA Summer School (single cell)](https://sib-swiss.github.io/SchoolRNA2020/){:target="blank"}**
 <br> NBIS/SIB, Schwarzenberg (Switzerland), 5 days
 
 ## 2019
 
-**[Omics Integration and Systems Biology](https://nbisweden.github.io/workshop_omics_integration/)**
+**[Omics Integration and Systems Biology](https://nbisweden.github.io/workshop_omics_integration/){:target="blank"}**
 <br> NBIS, Stockholm (Sweden), 5 days
 
-**[Software Carpentry](https://wikfeldt.github.io/2019-06-18-stockholm/)**
+**[Software Carpentry](https://wikfeldt.github.io/2019-06-18-stockholm/){:target="blank"}**
 <br> KTH, Stockholm (Sweden), 2 days
 
-**[Introduction to Bioinformatics using NGS data](https://scilifelab.github.io/courses/ngsintro/1902/)**
+**[Introduction to Bioinformatics using NGS data](https://scilifelab.github.io/courses/ngsintro/1902/){:target="blank"}**
 <br> NBIS, Uppsala (Sweden), 5 days
 
-**[Tools for Reproducible Research (spring)](https://nbis-reproducible-research.readthedocs.io/en/course_1905/)**
+**[Tools for Reproducible Research (spring)](https://nbis-reproducible-research.readthedocs.io/en/course_1905/){:target="blank"}**
 <br> NBIS, Stockholm (Sweden), 5 days
 
 <br>

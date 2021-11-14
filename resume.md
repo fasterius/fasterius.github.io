@@ -1,10 +1,10 @@
+# Resumé
+
 <style>
     table, tr, th, td{
         background-color: rgba(0, 0, 0, 0.0) !important;
     }
 </style>
-
-# Resumé
 
 ## Work and education
 
@@ -61,7 +61,7 @@
             </center>
         </td>
         <td>
-            <a href="https://www.su.se/ceul/utbildning/kurser/forskarhandledning/research-supervision-theory-and-practice-ht21-1.548510">
+            <a href="https://www.su.se/ceul/utbildning/kurser/forskarhandledning/research-supervision-theory-and-practice-ht21-1.548510" target="blank">
                 <b> Research Supervision - Theory and Practice </b> </a> <br>
             Stockholm University <br>
             Autumn, 2021
@@ -74,7 +74,7 @@
             </center>
         </td>
         <td>
-            <a href="https://malvikasharan.github.io/2019-04-03-ttt-stockholm/">
+            <a href="https://malvikasharan.github.io/2019-04-03-ttt-stockholm/" target="blank">
                 <b> Carpentry Instructor Certification </b> </a> <br>
             The Carpentries & ELIXIR <br>
             Spring, 2019
@@ -87,7 +87,7 @@
             </center>
         </td>
         <td>
-            <a href="https://www.visualizeyourscience.com/pages/vys-course">
+            <a href="https://www.visualizeyourscience.com/pages/vys-course" target="blank">
                 <b> Visualize Your Science</b> </a> <br>
             Visualize Your Science AB <br>
             Spring, 2018
