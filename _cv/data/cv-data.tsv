@@ -1,0 +1,22 @@
+show	what	with	where	date_start	date_end	type	link
+TRUE	Senior Bioinformatician	National Bioinformatics Infrastructure Sweden	Stockholm	2019	present	employment	
+FALSE	Researcher	Royal Institute of Technology	Stockholm	2018	2019	employment	
+TRUE	Research engineer	Royal Institute of Technology	Stockholm	2013	2014	employment	
+TRUE	PhD (Biotechnology & Bioinformatics)	Royal Institute of Technology	Stockholm	2014	2018	education	https://www.diva-portal.org/smash/record.jsf?pid=diva2:1245671
+TRUE	Master of Science in Engineering (Biotechnology)	Royal Institute of Technology	Stockholm	2006	2013	education	
+TRUE	Research Supervision - Theory and Practice	Stockholm University	Stockholm		2021	course	
+TRUE	Carpentry Instructor Certification	The Carpentries & ELIXIR	Stockholm		2019	course	
+TRUE	Visualize Your Science	Visualize Your Science AB	Stockholm		2018	course	
+TRUE	Tools for Reproducible Research (autumn)	NBIS	Online		2021	teaching	
+TRUE	Snakemake Bring-Your-Own-Code Workshop	NBIS	Online		2021	teaching	
+TRUE	Tools for Reproducible Research (spring)	NBIS	Online		2021	teaching	
+TRUE	Tools for Reproducible Research (autumn)	NBIS	Online		2020	teaching	
+TRUE	Snakemake Bring-Your-Own-Code Workshop	NBIS	Online		2020	teaching	
+TRUE	RNA Summer School (single cell)	NBIS/SIB	"Schwarzenberg, Switzerland"		2020	teaching	
+TRUE	Omics Integration and Systems Biology	NBIS	"Stockholm, Sweden"		2019	teaching	
+TRUE	Software Carpentry	Royal Institute of Technology	"Stockholm, Sweden"		2019	teaching	
+TRUE	Introduction to Bioinformatics using NGS data	NBIS	"Uppsala, Sweden"		2019	teaching	
+TRUE	Tools for Reproducible Research (spring)	NBIS	"Stockholm, Sweden"		2019	teaching	
+TRUE	seqCAT	"a R/Bioconductor package for variant analysis and cell authentication using HTS data, https://www.bioconductor.org/packages/release/bioc/html/seqCAT.html"				resource	
+TRUE	VarClust	"a Python package for variant analyses of single-cell HTS data, https://github.com/fasterius/VarClust"				resource	
+TRUE	RNA-VC	"a Snakemake pipeline for variant analyses of publicly available RNA-seq data, https://github.com/fasterius/RNA-VC"				resource	
