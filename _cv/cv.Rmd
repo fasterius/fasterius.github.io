@@ -124,5 +124,5 @@ data %>%
 # Publications
 
 ```{r publications}
-bibliography_entries("publications.bib")
+bibliography_entries("data/publications.bib")
 ```
