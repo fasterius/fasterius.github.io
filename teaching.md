@@ -9,6 +9,11 @@ Course Leader for the [Tools for Reproducible Research](https://uppsala.instruct
 NBIS course. I am also a certified [Carpentry Instructor](https://software-carpentry.org/){:target="blank"}.
 I have taught in both classroom and online settings.
 
+## 2022
+
+**[Single cell RNA-seq data analysis](https://uppsala.instructure.com/courses/52011){:target="blank"}**
+<br> NBIS, Online, 3 days
+
 ## 2021
 
 **[Tools for Reproducible Research (autumn)](https://uppsala.instructure.com/courses/51980){:target="blank"}**
