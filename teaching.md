@@ -11,6 +11,9 @@ I have taught in both classroom and online settings.
 
 ## 2022
 
+**[Tools for Reproducible Research (spring)](https://uppsala.instructure.com/courses/58267){:target="blank"}**
+<br> NBIS/ELIXIR, Online, 5 days
+
 **[Single cell RNA-seq data analysis](https://uppsala.instructure.com/courses/52011){:target="blank"}**
 <br> NBIS, Online, 3 days
 
