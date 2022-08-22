@@ -91,6 +91,7 @@ data %>%
         where = `where`)
 ```
 
+\newpage
 
 # Teaching
 
@@ -120,6 +121,8 @@ data %>%
         what  = `what`,
         with  = `with`)
 ```
+
+\newpage
 
 # Publications
 
