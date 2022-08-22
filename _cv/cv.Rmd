@@ -49,11 +49,11 @@ At my current workplace, the National Bioinformatics Infrastructure Sweden
 (NBIS), I offer advanced bioinformatic support and guidance to life science
 researchers in Sweden through the SciLifeLab community. My current focus
 involves transcriptomics and its applications in bulk and single cell RNA
-sequencing, as well as several pipeline development projects. I am also engaged
-in advanced computational biology and data analysis training at the European
-level through ELIXIR. My work at NBIS allows me to help life science
-researchers in Sweden bring their projects to completion with tailor-made
-bioinformatics solutions, which is something I greatly enjoy. \
+sequencing, as well as several pipeline development projects with Nextflow and
+nf-core. I am also engaged in advanced computational biology and data analysis
+training at the European level through ELIXIR. My work at NBIS allows me to
+help life science researchers in Sweden bring their projects to completion with
+tailor-made bioinformatics solutions, which is something I greatly enjoy. \
 
 # Employment
 
