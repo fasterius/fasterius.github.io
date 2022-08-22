@@ -8,13 +8,13 @@
 </style>
 
 **[Characterization of hemocytes and hematopoietic cells of a freshwater crayfish
-based on single-cell transcriptome analysis](https://doi.org/10.1016/j.isci.2022.104850){:target="blank"}**
+based on single-cell transcriptome analysis](https://doi.org/10.1016/j.isci.2022.104850){:target="blank"}**,
 Söderhäll I, <span class="texthighlight">**Fasterius E**</span>, Ekblom C,
 Söderhäll K (2022). iScience 25(8), 104850.
 
 **[Single-cell transcriptional pharmacodynamics of trifluridine in a
 tumor-immune model](https://doi.org/10.1038/s41598-022-16077-7){:target="blank"}**,
-Selvin T, <span class="texthighlight">**Fasterius E**</span>, Jarvius M,
+<br> Selvin T, <span class="texthighlight">**Fasterius E**</span>, Jarvius M,
 Fryknäs M, Larsson R, Andersson C (2022). Scientific Reports, 12, 11960.
 
 **[Extensive rewiring of the EGFR network in colorectal cancer cells expressing
