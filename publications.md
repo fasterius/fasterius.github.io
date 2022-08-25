@@ -65,6 +65,6 @@ Lundberg E (2018). Oncotarget, 9(28), 19730–19744.
 
 **[A novel RNA sequencing data analysis method for cell line
 authentication](https://doi.org/10.1371/journal.pone.0171435){:target="blank"}**,
-<span class="texthighlight">**E Fasterius**</span>, Raso C, Kennedy S, Rauch
+<span class="texthighlight">**Fasterius E**</span>, Raso C, Kennedy S, Rauch
 N, Lundin P, Kolch W, Uhlén M, Al-Khalili Szigyarto C, (2017). PloS One, 12(2),
 e0171435.
