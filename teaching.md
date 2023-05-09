@@ -9,6 +9,11 @@ Course Leader for the [Tools for Reproducible Research](https://uppsala.instruct
 NBIS course. I am also a certified [Carpentry Instructor](https://software-carpentry.org/){:target="blank"}.
 I have taught in both classroom and online settings.
 
+## 2023
+
+**[Tools for Reproducible Research (spring)](https://uppsala.instructure.com/courses/82575){:target="blank"}**
+<br> NBIS/ELIXIR, Online, 5 days
+
 ## 2022
 
 **[Tools for Reproducible Research (spring)](https://uppsala.instructure.com/courses/58267){:target="blank"}**
