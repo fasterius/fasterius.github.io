@@ -8,22 +8,23 @@ you an idea of some of the projects that I have and am working on.
 
 ## Projects
 
-* Development of a bioinformatic pipeline for Spatial Transcriptomics and
-  scRNA-seq data using Nextflow
 * Analysis of single-cell RNA-seq data in crayfish immune cells
 * Investigation of drug treatment in a co-culture of immune and cancer cells
   using scRNA-seq data
 * Development of a bioinformatic pipeline for drug screening using RNA-seq
   data and Nextflow
-* Analysis of transcriptomic and proteomic data in dementia patients
+* Analysis of transcriptomic data in dementia patients
 * Transcriptional effect of drug treatments in a CRISPR cell line model
 
 ## Resources
 
+* [nf-core/spatialtranscriptomics](https://github.com/nf-core/spatialtranscriptomics){:target="blank"},
+  a Nextflow and [nf-core](https://nf-co.re/){:target="blank"} pipeline for
+  analysing 10X spatial transcriptomics data
 * [seqCAT](https://www.bioconductor.org/packages/release/bioc/html/seqCAT.html){:target="blank"},
   an R/Bioconductor package for variant analysis and cell authentication using
   HTS data
-- [VarClust](https://github.com/fasterius/VarClust), a Python package for
+* [VarClust](https://github.com/fasterius/VarClust), a Python package for
   variant analyses of single-cell HTS data
 * [RNA-VC](https://github.com/fasterius/RNA-VC), a Snakemake pipeline for
   variant analyses of publicly available RNA-seq data
