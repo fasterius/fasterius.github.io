@@ -19,8 +19,8 @@ you an idea of some of the projects that I have and am working on.
 ## Resources
 
 * [nf-core/spatialtranscriptomics](https://github.com/nf-core/spatialtranscriptomics){:target="blank"},
-  a Nextflow and [nf-core](https://nf-co.re/){:target="blank"} pipeline for
-  analysing 10X spatial transcriptomics data
+  a Nextflow/[nf-core](https://nf-co.re/){:target="blank"} pipeline for
+  analysing spatial transcriptomics data
 * [seqCAT](https://www.bioconductor.org/packages/release/bioc/html/seqCAT.html){:target="blank"},
   an R/Bioconductor package for variant analysis and cell authentication using
   HTS data
