@@ -24,9 +24,9 @@ you an idea of some of the projects that I have and am working on.
 * [seqCAT](https://www.bioconductor.org/packages/release/bioc/html/seqCAT.html){:target="blank"},
   an R/Bioconductor package for variant analysis and cell authentication using
   HTS data
-* [VarClust](https://github.com/fasterius/VarClust), a Python package for
+* [VarClust](https://github.com/fasterius/VarClust){:target="blank"}, a Python package for
   variant analyses of single-cell HTS data
-* [RNA-VC](https://github.com/fasterius/RNA-VC), a Snakemake pipeline for
+* [RNA-VC](https://github.com/fasterius/RNA-VC){:target="blank"}, a Snakemake pipeline for
   variant analyses of publicly available RNA-seq data
 
 ## PhD Thesis
