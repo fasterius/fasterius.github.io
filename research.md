@@ -29,6 +29,12 @@ you an idea of some of the projects that I have and am working on.
 * [RNA-VC](https://github.com/fasterius/RNA-VC){:target="blank"}, a Snakemake pipeline for
   variant analyses of publicly available RNA-seq data
 
+## Other Open Source contributions
+
+* [nf-core/modules/spaceranger](https://nf-co.re/modules){:target="blank"}, a
+  Nextflow/[nf-core](https://nf-co.re/){:target="blank"} module for the 10x
+  Genomics Space Ranger software.
+
 ## PhD Thesis
 
 * [Exploring genetic heterogeneity in cancer using high-throughput DNA and RNA
