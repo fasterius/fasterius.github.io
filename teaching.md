@@ -11,6 +11,9 @@ I have taught in both classroom and online settings.
 
 ## 2023
 
+**[Tools for Reproducible Research (autumn)](https://uppsala.instructure.com/courses/87979){:target="blank"}**
+<br> NBIS/ELIXIR, Stockholm (Sweden), 5 days
+
 **[Tools for Reproducible Research (spring)](https://uppsala.instructure.com/courses/82575){:target="blank"}**
 <br> NBIS/ELIXIR, Online, 5 days
 
