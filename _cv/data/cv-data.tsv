@@ -7,6 +7,8 @@ TRUE	Master of Science in Engineering (Biotechnology)	Royal Institute of Technol
 TRUE	Research Supervision - Theory and Practice	Stockholm University	Stockholm		2021	course
 TRUE	Carpentry Instructor Certification	The Carpentries & ELIXIR	Stockholm		2019	course
 TRUE	Visualize Your Science	Visualize Your Science AB	Stockholm		2018	course
+TRUE	Tools for Reproducible Research (autumn)	NBIS/ELIXIR	"Stockholm, Sweden"		2023	teaching
+TRUE	Tools for Reproducible Research (spring)	NBIS/ELIXIR	Online		2023	teaching
 TRUE	Tools for Reproducible Research (spring)	NBIS/ELIXIR	Online		2022	teaching
 TRUE	Single cell RNA-seq data analysis	NBIS	Online		2022	teaching
 TRUE	Tools for Reproducible Research (autumn)	NBIS/ELIXIR	Online		2021	teaching
@@ -19,6 +21,8 @@ TRUE	Omics Integration and Systems Biology	NBIS	"Stockholm, Sweden"		2019	teachi
 TRUE	Software Carpentry	Royal Institute of Technology	"Stockholm, Sweden"		2019	teaching
 TRUE	Introduction to Bioinformatics using NGS data	NBIS	"Uppsala, Sweden"		2019	teaching
 TRUE	Tools for Reproducible Research (spring)	NBIS	"Stockholm, Sweden"		2019	teaching
+TRUE	nf-core/spatialtranscriptomics	a nf-core pipeline for analysing 10x Genomics Visium data				resource
+TRUE	nf-core/modules/spaceranger	a nf-core module for processing raw 10x Genomics Visium data				resource
 TRUE	seqCAT	"a R/Bioconductor package for variant analysis and cell authentication using HTS data, https://www.bioconductor.org/packages/release/bioc/html/seqCAT.html"				resource
 TRUE	VarClust	"a Python package for variant analyses of single-cell HTS data, https://github.com/fasterius/VarClust"				resource
 TRUE	RNA-VC	"a Snakemake pipeline for variant analyses of publicly available RNA-seq data, https://github.com/fasterius/RNA-VC"				resource
