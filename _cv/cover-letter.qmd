@@ -1,35 +1,36 @@
 ---
 format:
   modern2-cover-letter-pdf: default
-author: David Schoch
+author: Erik Fasterius
 date: today
 date-format: long
 
-cvfont: raleway #texlive fonts like raleway,fetamont,gillius,comfortaa
-cvcolor: 
-  main: B83B5E
-  accent: 6A2C70
-  
-title: Motivation letter
-sub-title: 'Application as Team Lead "Transparent Social Analytics"'
+cvfont: raleway # TeXLive fonts like raleway,fetamont,gillius,comfortaa
+cvcolor:
+  main: 749fc8 # Text & arrow colours
+  accent: 004b96 # Block & header underline colours
+
+title: Cover letter
+sub-title: 'Application for [...]'
 
 contact:
-  street: First Street 1
+  street: Lodvägen 4
+  zip: 192 59
+  city: Sollentuna, Stockholm
+  country: Sweden
+  phone: (+46) 070 714 36 96
+  mail: erik.fasterius@outlook.com
+
+organization:
+  contact-person: BigBoss
+  name: ImportantCorporation
+  street: SecondStreet2
   zip: 1234
-  city: Some City
-  phone: +1 2345 6789
-  mail: some.mail@mailbox.com
-  
-organization: 
-  contact-person: Big Boss
-  name: Important Corporation
-  street: Second Street 2
-  zip: 1234 
-  city: Some City
-    
+  city: SomeCity
+
 ---
 
-Dear big boss,
+Dear BigBoss,
 
 This is my first paragraph.
 I'm super interested in the job.
@@ -43,4 +44,4 @@ Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit ame
 
 Kind regards,
 
-David
+Erik
