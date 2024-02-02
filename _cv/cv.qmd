@@ -42,7 +42,7 @@ sidebar:
           exp:
             text: "4 years"
             num: 0.4
-        - text: Bash
+        - text: Unix / Bash
           exp:
             text: "10 yrs."
             num: 1
@@ -52,8 +52,8 @@ sidebar:
             num: 0.4
         - text: Snakemake
           exp:
-            text: "3 years"
-            num: 0.3
+            text: "7 years"
+            num: 0.7
         - text: Quarto
           exp:
             text: "1 years"
@@ -77,6 +77,8 @@ sidebar:
     - name: Skills
       items:
         - Computational biology
+        - Transcriptomics
+        - Genomics
         - Pipeline development
         - Reproducibility
         - Data visualisation
