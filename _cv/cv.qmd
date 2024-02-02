@@ -158,10 +158,10 @@ cvteach <- function(tbl, what, when, with, where, href) {
 
 I am a bioinformatician and a scientist working mainly with computational
 biology, pipeline development and advanced training. I come from a background in
-biotechnology and thus have a deep understanding of both bioinformatics and the
-underlying biology. I have experience working with machine learning, software
-development, cancer biology, drug screening and cell line authentication.
-Additional special interests include reproducibility and data visualization. \
+biotechnology and thus have an understanding of both bioinformatics and the
+underlying biology. I have experience working with software development, machine
+learning, cancer biology, drug screening and cell line authentication.
+I am also very interested in reproducibility and data visualization. \
 
 I am analytically minded, thorough and enjoy problem-solving at all levels. I
 have always liked sharing my knowledge with others, be that through more
@@ -176,8 +176,8 @@ adaptable and social.
 #| output: asis
 tibble::tribble(
     ~role, ~institution, ~dates, ~descr,
-    "Senior Bioinformatician", "National Bioinformatics Infrastructure Sweden\nSciLifeLab, Stockholm, Sweden", "2019 - Present", "At NBIS I offer advanced bioinformatic support and guidance to life science researchers in Sweden through the SciLifeLab community. My current focus involves transcriptomics and its applications in bulk and single cell RNA sequencing, as well as several pipeline development projects with Nextflow and nf-core. I am also engaged in advanced computational biology and data analysis training at the European level through ELIXIR. My work at NBIS allows me to help life science researchers in Sweden bring their projects to completion with tailor-made bioinformatics solutions, which is something I greatly enjoy.",
-    "PhD Student", "KTH Royal Institute of Technology\nStockholm, Sweden", "2014 - 2018", "During my PhD studies I worked on genetic heterogeneity in human cancer models using both bulk and single cell RNA-seq technologies. My project involved leveraging both traditional gene expression-based analyses with non-traditional single nucleotide variant analysis of publicly available (sc)RNA-seq datasets.",
+    "Senior Bioinformatician", "National Bioinformatics Infrastructure Sweden\nSciLifeLab, Stockholm, Sweden", "2019 - Present", "At NBIS I offer advanced bioinformatic support and guidance to life science researchers in Sweden through the SciLifeLab community. My current focus involves transcriptomics and its applications in bulk and single cell RNA sequencing, as well as several pipeline development projects with Nextflow and nf-core. I am also engaged in advanced computational biology and data analysis training at the European level through ELIXIR. My work at NBIS allows me to help life science researchers in Sweden bring their projects to completion with tailor-made bioinformatics solutions.",
+    "PhD Student", "KTH Royal Institute of Technology\nStockholm, Sweden", "2014 - 2018", "During my PhD studies I worked on genetic heterogeneity in human cancer models using both bulk and single cell RNA-seq technologies. My project involved leveraging both traditional gene expression-based analyses with non-traditional single nucleotide variant analysis of publicly available (sc)RNA-seq datasets, as well as creating pipelines for these types of analyses.",
     # "Master Student, Biotechnology", "KTH Royal Institute of Technology\nStockholm, Sweden", "2006 - 2013", "",
 ) |>
     cvevent(when = "dates", what = "role", where = "institution", descr = "descr")
