@@ -1,0 +1,242 @@
+---
+title: Untitled
+format:
+  modern2-cv-pdf:
+    cite-method: biblatex
+    biblio-style: authoryear
+author: Erik Fasterius
+cvfont: raleway # TeXLive fonts like raleway,fetamont,gillius,comfortaa
+cvcolor:
+  main: 749fc8 # Text & arrow colours
+  accent: 004b96 # Block & header underline colours
+jobtitle: Senior Bioinformatician
+bibliography: data/publications.bib
+nocite: |
+  @*
+sidebar:
+  image: ../assets/img/profile-picture.jpg
+  bullets:
+    - Lives in Stockholm, Sweden
+    - Married to wife Linda
+    - Twin daughters Saga and Tilda
+  sections:
+    - name: Tools
+      items:
+        - text: Git / GitHub
+          exp:
+            text: "8 years"
+            num: 0.8
+        - text: Docker
+          exp:
+            text: "4 years"
+            num: 0.4
+        - text: Conda
+          exp:
+            text: "5 years"
+            num: 0.5
+        - text: R
+          exp:
+            text: "10 yrs."
+            num: 1
+        - text: Python
+          exp:
+            text: "4 years"
+            num: 0.4
+        - text: Bash
+          exp:
+            text: "10 yrs."
+            num: 1
+        - text: Nextflow / nf-core
+          exp:
+            text: "4 years"
+            num: 0.4
+        - text: Snakemake
+          exp:
+            text: "3 years"
+            num: 0.3
+        - text: Quarto
+          exp:
+            text: "1 years"
+            num: 0.1
+        - text: R Markdown
+          exp:
+            text: "8 years"
+            num: 0.8
+        - text: LaTeX
+          exp:
+            text: "6 years"
+            num: 0.6
+        - text: HPC
+          exp:
+            text: "10 yrs."
+            num: 1
+        - text: Vim
+          exp:
+            text: "7 years"
+            num: 0.7
+    - name: Skills
+      items:
+        - Computational biology
+        - Pipeline development
+        - Reproducibility
+        - Data visualisation
+        - Statistics
+        - Creative problem solving
+        - Teaching
+        - Public speaking
+        - Scientific writing
+    # - name: Education
+    #   items:
+    #     - text: "Ph.D. Biotechnology"
+    #       inst: "KTH Royal Institute of Technology"
+    #       time: "2014 - 2018"
+    #       details: "Thesis: Exploring genetic heterogeneity in cancer using high-throughput DNA and RNA sequencing"
+    #     - text: "Master of Science in Engineering (Biotechnology)"
+    #       inst: "KTH Royal Institute of Technology"
+    #       time: "2006 - 2013"
+    - name: Contact
+      items:
+        - icon: phone
+          text: "+4670 714 36 96"
+        - icon: envelope
+          text: erik.fasterius@outlook.com
+        - icon: home
+          text: fasterius.github.io
+          href: https://fasterius.github.io/
+        - icon: github
+          text: fasterius
+          href: https://github.com/fasterius
+        - icon: linkedin
+          text: Erik Fasterius
+          href: https://www.linkedin.com/in/erik-fasterius
+execute:
+  echo: false
+---
+
+```{r}
+#| label: functions
+cvevent <- function(tbl, when, what, where, descr) {
+
+    command_start <- "\\cvevent"
+    tbl[[where]] <- gsub("\n", " \\\\newline ", tbl[[where]])
+    res <- paste0(
+        command_start,
+        "{", tbl[[when]], "}",
+        "{", tbl[[what]], "}",
+        "{", tbl[[where]], "}",
+        "{", tbl[[descr]], "}"
+        )
+    cat(res, sep = "\n\n\n")
+}
+
+cvproj <- function(tbl, what, role, text) {
+    command_start <- "\\cvproj"
+    res <- paste0(
+        command_start,
+        "{", tbl[[what]], "}",
+        "{", tbl[[role]], "}",
+        "{", tbl[[text]], "}"
+    )
+    cat(res, sep = "\n\n\n")
+}
+
+cvteach <- function(tbl, what, when, with, where, href) {
+    command_start <- "\\cvteach"
+    res <- paste0(
+        command_start,
+        "{", tbl[[what]], "}",
+        "{", tbl[[when]], "}",
+        "{", tbl[[with]], "}",
+        "{", tbl[[where]], "}",
+        "{", tbl[[href]], "}"
+    )
+    cat(res, sep = "\n\n\n")
+}
+```
+
+# Summary
+
+I am a bioinformatician and a scientist working mainly with computational
+biology, pipeline development and advanced training. I come from a background in
+biotechnology and thus have a deep understanding of both bioinformatics and the
+underlying biology. I have experience working with machine learning, software
+development, cancer biology, drug screening and cell line authentication.
+Additional special interests include reproducibility and data visualization. \
+
+I am analytically minded, thorough and enjoy problem-solving at all levels. I
+have always liked sharing my knowledge with others, be that through more
+traditional teaching avenues or through corridor-conversations with colleagues.
+Learning new things is something I have always appreciated. I'm creative,
+adaptable and social.
+
+# Experience
+
+```{r}
+#| label: experience
+#| output: asis
+tibble::tribble(
+    ~role, ~institution, ~dates, ~descr,
+    "Senior Bioinformatician", "National Bioinformatics Infrastructure Sweden\nSciLifeLab, Stockholm, Sweden", "2019 - Present", "At NBIS I offer advanced bioinformatic support and guidance to life science researchers in Sweden through the SciLifeLab community. My current focus involves transcriptomics and its applications in bulk and single cell RNA sequencing, as well as several pipeline development projects with Nextflow and nf-core. I am also engaged in advanced computational biology and data analysis training at the European level through ELIXIR. My work at NBIS allows me to help life science researchers in Sweden bring their projects to completion with tailor-made bioinformatics solutions, which is something I greatly enjoy.",
+    "PhD Student", "KTH Royal Institute of Technology\nStockholm, Sweden", "2014 - 2018", "During my PhD studies I worked on genetic heterogeneity in human cancer models using both bulk and single cell RNA-seq technologies. My project involved leveraging both traditional gene expression-based analyses with non-traditional single nucleotide variant analysis of publicly available (sc)RNA-seq datasets.",
+    # "Master Student, Biotechnology", "KTH Royal Institute of Technology\nStockholm, Sweden", "2006 - 2013", "",
+) |>
+    cvevent(when = "dates", what = "role", where = "institution", descr = "descr")
+```
+
+# Open Source projects
+
+```{r}
+#| label: projects
+#| output: asis
+tibble::tribble(
+    ~what, ~role, ~text,
+    "nf-core/spatialtranscriptomics", "Creator \\& Maintainer", "A nf-core pipeline for analysing Visium spatial transcriptomics data.",
+    "nf-core/rifseq", "Creator \\& Maintainer", "A nf-core pipeline for analysing the new RIF-seq sequencing method for large-scale, in-plate drug screening by the Mats Nilsson laboratory at SciLifeLab (currently not publicly available).",
+    "nf-core/modules/quartonotebook", "Creator \\& Maintainer", "A Nextflow/nf-core module for rendering Quarto notebooks (in development).",
+    "nf-core/modules/spaceranger", "Contributor", "A nf-core module for processing Visium data using the Space Ranger software.",
+    "seqCAT", "Creator \\& Maintainer", "An R/Bioconductor package for variant analysis and cell authentication using HTS data.",
+    "VarClust", "Creator \\& Maintainer", "A Python package for variant analyses of single-cell HTS data.",
+    "RNA-VC", "Creator \\& Maintainer", "A Snakemake pipeline for variant analyses of publicly available RNA-seq data.",
+) |>
+    cvproj(what = "what", role = "role", text = "text")
+```
+
+# Teaching
+
+I have been involved in a number of advanced courses related to bioinformatics
+in the last few years. All of the courses are offered to PhD students, post-docs
+and other high-level researchers in Sweden ([NBIS](https://nbis.se/)),
+Switzerland ([SIB](https://www.sib.swiss/)) and other countries in the
+[ELIXIR](https://elixir-europe.org/) network. I am a Course Leader for the NBIS
+Tools for Reproducible Research NBIS course. I am also a certified [Carpentry
+Instructor](https://software-carpentry.org/). For a full list of the courses I
+have taught, please follow [this link](https://fasterius.github.io/teaching/).
+
+```{r}
+#| eval: false
+#| label: teaching
+#| output: asis
+tibble::tribble(
+    ~what, ~when, ~with, ~where, ~href,
+    "Tools for Reproducible Research", "2023, autumn", "NBIS/ELIXIR", "Stockholm, Sweden", "https://uppsala.instructure.com/courses/87979",
+    "Tools for Reproducible Research", "2023, spring", "NBIS/ELIXIR", "Online", "https://uppsala.instructure.com/courses/82575",
+    "Tools for Reproducible Research", "2022, spring", "NBIS/ELIXIR", "Online", "https://uppsala.instructure.com/courses/58267",
+    "Single cell RNA-seq data analysis", "2022", "NBIS", "Online", "https://uppsala.instructure.com/courses/52011",
+    "Tools for Reproducible Research", "2021, autumn", "NBIS/ELIXIR", "Online", "https://uppsala.instructure.com/courses/51980",
+    "Snakemake Bring-Your-Own-Code Workshop", "2021", "NBIS/ELIXIR", "Online", "https://uppsala.instructure.com/courses/52153",
+    "Tools for Reproducible Research", "2021, spring", "NBIS/ELIXIR", "Online", "https://nbis-reproducible-research.readthedocs.io/en/course_2104/",
+    "Tools for Reproducible Research", "2020, autumn", "NBIS/ELIXIR", "Online", "https://nbis-reproducible-research.readthedocs.io/en/course_2010/",
+    "Snakemake Bring-Your-Own-Code Workshop", "2020", "NBIS/ELIXIR", "Online", "https://uppsala.instructure.com/courses/52153", # No link for this course round?
+    "RNA Summer School, single cell", "2020", "NBIS/SIB", "Schwartzenberg, Switzerland", "https://sib-swiss.github.io/SchoolRNA2020/",
+    "Omics Integration and Systems Biology", "2019", "NBIS", "Stockholm, Sweden", "https://nbisweden.github.io/workshop_omics_integration/",
+    "Software Carpentry", "2019", "KTH", "Stockholm, Sweden", "https://wikfeldt.github.io/2019-06-18-stockholm/",
+    "Introduction to Bioinformatics using NGS data", "2019", "NBIS", "Uppsala, Sweden", "https://scilifelab.github.io/courses/ngsintro/1902/",
+    "Tools for Reproducible Research", "2019, spring", "NBIS", "Stockholm, Sweden", "https://nbis-reproducible-research.readthedocs.io/en/course_1905/",
+) |>
+    cvteach(what = "what", when = "when", with = "with", where = "where", href = "href")
+```
+
+# Publications
+
+::: {#refs}
+:::

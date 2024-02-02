@@ -3,6 +3,5 @@ channels:
     - bioconda
     - defaults
 dependencies:
-    - r-tidyverse
-    - r-rmarkdown
-    - r-vitae
+    - r-rmarkdown=2.25
+    - r-tibble=3.2.1
