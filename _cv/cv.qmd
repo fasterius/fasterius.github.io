@@ -97,7 +97,7 @@ sidebar:
     - name: Contact
       items:
         - icon: phone
-          text: "+4670 714 36 96"
+          text: "(+46) 070 714 36 96"
         - icon: envelope
           text: erik.fasterius@outlook.com
         - icon: home
@@ -129,13 +129,14 @@ cvevent <- function(tbl, when, what, where, descr) {
     cat(res, sep = "\n\n\n")
 }
 
-cvproj <- function(tbl, what, role, text) {
+cvproj <- function(tbl, what, role, text, href) {
     command_start <- "\\cvproj"
     res <- paste0(
         command_start,
         "{", tbl[[what]], "}",
         "{", tbl[[role]], "}",
-        "{", tbl[[text]], "}"
+        "{", tbl[[text]], "}",
+        "{", tbl[[href]], "}"
     )
     cat(res, sep = "\n\n\n")
 }
@@ -177,8 +178,8 @@ adaptable and social.
 tibble::tribble(
     ~role, ~institution, ~dates, ~descr,
     "Senior Bioinformatician", "National Bioinformatics Infrastructure Sweden\nSciLifeLab, Stockholm, Sweden", "2019 - Present", "At NBIS I offer advanced bioinformatic support and guidance to life science researchers in Sweden through the SciLifeLab community. My current focus involves transcriptomics and its applications in bulk and single cell RNA sequencing, as well as several pipeline development projects with Nextflow and nf-core. I am also engaged in advanced computational biology and data analysis training at the European level through ELIXIR. My work at NBIS allows me to help life science researchers in Sweden bring their projects to completion with tailor-made bioinformatics solutions.",
-    "PhD Student", "KTH Royal Institute of Technology\nStockholm, Sweden", "2014 - 2018", "During my PhD studies I worked on genetic heterogeneity in human cancer models using both bulk and single cell RNA-seq technologies. My project involved leveraging both traditional gene expression-based analyses with non-traditional single nucleotide variant analysis of publicly available (sc)RNA-seq datasets, as well as creating pipelines for these types of analyses.",
-    # "Master Student, Biotechnology", "KTH Royal Institute of Technology\nStockholm, Sweden", "2006 - 2013", "",
+    "PhD Student", "KTH Royal Institute of Technology\nStockholm, Sweden", "2014 - 2018", "During my PhD studies I worked on genetic heterogeneity in human cancer models using both bulk and single cell RNA-seq technologies. My project involved leveraging both traditional gene expression-based analyses with non-traditional single nucleotide variant analysis of publicly available (sc)RNA-seq datasets.",
+    # "Master Student", "KTH Royal Institute of Technology\nStockholm, Sweden", "2006 - 2013", "",
 ) |>
     cvevent(when = "dates", what = "role", where = "institution", descr = "descr")
 ```
@@ -189,28 +190,28 @@ tibble::tribble(
 #| label: projects
 #| output: asis
 tibble::tribble(
-    ~what, ~role, ~text,
-    "nf-core/spatialtranscriptomics", "Creator \\& Maintainer", "A nf-core pipeline for analysing Visium spatial transcriptomics data.",
-    "nf-core/rifseq", "Creator \\& Maintainer", "A nf-core pipeline for analysing the new RIF-seq sequencing method for large-scale, in-plate drug screening by the Mats Nilsson laboratory at SciLifeLab (currently not publicly available).",
-    "nf-core/modules/quartonotebook", "Creator \\& Maintainer", "A Nextflow/nf-core module for rendering Quarto notebooks (in development).",
-    "nf-core/modules/spaceranger", "Contributor", "A nf-core module for processing Visium data using the Space Ranger software.",
-    "seqCAT", "Creator \\& Maintainer", "An R/Bioconductor package for variant analysis and cell authentication using HTS data.",
-    "VarClust", "Creator \\& Maintainer", "A Python package for variant analyses of single-cell HTS data.",
-    "RNA-VC", "Creator \\& Maintainer", "A Snakemake pipeline for variant analyses of publicly available RNA-seq data.",
+    ~what, ~role, ~text, ~href,
+    "nf-core/spatialtranscriptomics", "Creator \\& Maintainer", "A nf-core pipeline for analysing Visium spatial transcriptomics data.", "https://github.com/nf-core/spatialtranscriptomics",
+    "nf-core/rifseq", "Creator \\& Maintainer", "A nf-core pipeline for analysing the new RIF-seq sequencing method for large-scale, in-plate drug screening by the Mats Nilsson laboratory at SciLifeLab (currently not publicly available).", "",
+    "nf-core/modules/quartonotebook", "Creator \\& Maintainer", "A Nextflow/nf-core module for rendering Quarto notebooks (in development).", "https://github.com/fasterius/modules/tree/quartonotebook/modules/nf-core/quartonotebook",
+    "nf-core/modules/spaceranger", "Contributor", "A nf-core module for processing Visium data using the Space Ranger software.", "https://github.com/nf-core/modules/tree/master/modules/nf-core/spaceranger",
+    "seqCAT", "Creator \\& Maintainer", "An R/Bioconductor package for variant analysis and cell authentication using HTS data.", "https://www.bioconductor.org/packages/release/bioc/html/seqCAT.html",
+    "VarClust", "Creator \\& Maintainer", "A Python package for variant analyses of single-cell HTS data.", "https://github.com/fasterius/VarClust",
+    "RNA-VC", "Creator \\& Maintainer", "A Snakemake pipeline for variant analyses of publicly available RNA-seq data.", "https://github.com/fasterius/RNA-VC",
 ) |>
-    cvproj(what = "what", role = "role", text = "text")
+    cvproj(what = "what", role = "role", text = "text", href = "href")
 ```
 
 # Teaching
 
-I have been involved in a number of advanced courses related to bioinformatics
-in the last few years. All of the courses are offered to PhD students, post-docs
-and other high-level researchers in Sweden ([NBIS](https://nbis.se/)),
-Switzerland ([SIB](https://www.sib.swiss/)) and other countries in the
+I have been involved in a number of advanced bioinformatics courses. All of the
+courses are offered to PhD students, post-docs and other high-level researchers
+in Sweden ([NBIS](https://nbis.se/)), Switzerland
+([SIB](https://www.sib.swiss/)) and other countries in the
 [ELIXIR](https://elixir-europe.org/) network. I am a Course Leader for the NBIS
 Tools for Reproducible Research NBIS course. I am also a certified [Carpentry
 Instructor](https://software-carpentry.org/). For a full list of the courses I
-have taught, please follow [this link](https://fasterius.github.io/teaching/).
+have taught, please visit [my website](https://fasterius.github.io/teaching/).
 
 ```{r}
 #| eval: false
