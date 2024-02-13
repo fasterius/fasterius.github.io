@@ -11,7 +11,7 @@ contributions.
 - [nf-core/spatialtranscriptomics](https://github.com/nf-core/spatialtranscriptomics){:target="blank"},
   a Nextflow/[nf-core](https://nf-co.re/){:target="blank"} pipeline for
   analysing spatial transcriptomics data
-- [nf-core/modules/quartonotebook](https://github.com/fasterius/modules/tree/master/modules/nf-core/quartonotebook){:target="blank"},
+- [nf-core/modules/quartonotebook](https://nf-co.re/modules/quartonotebook){:target="blank"},
   a Nextflow/[nf-core](https://nf-co.re/){:target="blank"} module for rendering
   [Quarto](https://quarto.org/) notebooks.
 - [seqCAT](https://www.bioconductor.org/packages/release/bioc/html/seqCAT.html){:target="blank"},
@@ -24,7 +24,7 @@ contributions.
 
 ## Open Source contributions
 
-- [nf-core/modules/spaceranger](https://github.com/nf-core/modules/tree/master/modules/nf-core/spaceranger){:target="blank"},
+- [nf-core/modules/spaceranger](https://nf-co.re/modules/spaceranger){:target="blank"},
   a Nextflow/[nf-core](https://nf-co.re/){:target="blank"} module for the 10x
   Genomics Space Ranger software.
 
