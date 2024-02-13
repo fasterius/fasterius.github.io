@@ -356,27 +356,24 @@ $endif$
 		\begin{tabular*}{1\mpwidth}{p{0.66\mpwidth}  r}
 	 		\textcolor{black}{\textbf{#2}} & \colorbox{accentcol}{\makebox[0.32\mpwidth]{\textcolor{white}{\textbf{#1}}}} \\
 			\textcolor{maincol}{#3} & \\
-		\end{tabular*}\\[8pt]
+		\end{tabular*}\\[4pt]
 
 		\ifthenelse{\isempty{#4}}{}{
 			\cvtext{#4}\\
 		}
 	}
-	\vspace{10pt}
+	\vspace{14pt}
 }
 
 \newcommand{\cvproj}[4] {
 	\parbox{\mpwidth}{
-		\begin{tabular*}{1\mpwidth}{p{0.66\mpwidth}  r}
+		\begin{tabular*}{1\mpwidth}{p{1\mpwidth}  r}
             \textcolor{black}{\textbf{\href{#4}{#1}}} & \\
 			\textcolor{maincol}{#2} & \\
+            \textcolor{black}{#3} & \\
 		\end{tabular*}\\[4pt]
-
-		\ifthenelse{\isempty{#3}}{}{
-			\cvtext{#3}\\
-		}
 	}
-	\vspace{10pt}
+	\vspace{6pt}
 }
 
 \newcommand{\cvteach}[5] {
@@ -386,7 +383,7 @@ $endif$
             \textcolor{maincol}{#3, #4 (#2)} & \\
 		\end{tabular*}\\[4pt]
 	}
-	\vspace{6pt}
+	\vspace{10pt}
 }
 %----------------------------------------------------------------------------------------
 %	 CV META EVENT

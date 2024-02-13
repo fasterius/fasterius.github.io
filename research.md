@@ -14,6 +14,9 @@ contributions.
 - [nf-core/modules/quartonotebook](https://nf-co.re/modules/quartonotebook){:target="blank"},
   a Nextflow/[nf-core](https://nf-co.re/){:target="blank"} module for rendering
   [Quarto](https://quarto.org/) notebooks.
+- [A nf-core Quarto template](https://github.com/fasterius/nf-core-quarto-template){:target="blank"}
+  following the nf-core visual identity and commonly used colours for rendering
+  nf-core-themed reports
 - [seqCAT](https://www.bioconductor.org/packages/release/bioc/html/seqCAT.html){:target="blank"},
   an R/Bioconductor package for variant analysis and cell authentication using
   HTS data

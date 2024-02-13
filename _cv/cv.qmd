@@ -195,8 +195,9 @@ tibble::tribble(
     ~what, ~role, ~text, ~href,
     "nf-core/spatialtranscriptomics", "Creator \\& Maintainer", "A nf-core pipeline for analysing Visium spatial transcriptomics data.", "https://github.com/nf-core/spatialtranscriptomics",
     "nf-core/rifseq", "Creator \\& Maintainer", "A nf-core pipeline for analysing the new RIF-seq sequencing method for large-scale, in-plate drug screening by the Mats Nilsson laboratory at SciLifeLab (currently not publicly available).", "",
-    "nf-core/modules/quartonotebook", "Creator \\& Maintainer", "A Nextflow/nf-core module for rendering Quarto notebooks (in development).", "https://github.com/fasterius/modules/tree/quartonotebook/modules/nf-core/quartonotebook",
-    "nf-core/modules/spaceranger", "Contributor", "A nf-core module for processing Visium data using the Space Ranger software.", "https://github.com/nf-core/modules/tree/master/modules/nf-core/spaceranger",
+    "nf-core/modules/quartonotebook", "Creator \\& Maintainer", "A nf-core module for rendering Quarto notebooks.", "https://nf-co.re/modules/quartonotebook",
+    "nf-core/modules/spaceranger", "Contributor", "A nf-core module for processing Visium data using the Space Ranger software.", "https://nf-co.re/modules/spaceranger_count",
+    "Quarto nf-core template", "Creator \\& Maintainer", "A Quarto template for the nf-core community.", "https://github.com/fasterius/nf-core-quarto-template",
     "seqCAT", "Creator \\& Maintainer", "An R/Bioconductor package for variant analysis and cell authentication using HTS data.", "https://www.bioconductor.org/packages/release/bioc/html/seqCAT.html",
     "VarClust", "Creator \\& Maintainer", "A Python package for variant analyses of single-cell HTS data.", "https://github.com/fasterius/VarClust",
     "RNA-VC", "Creator \\& Maintainer", "A Snakemake pipeline for variant analyses of publicly available RNA-seq data.", "https://github.com/fasterius/RNA-VC",
@@ -206,14 +207,12 @@ tibble::tribble(
 
 # Teaching
 
-I have been involved in a number of advanced bioinformatics courses. All of the
-courses are offered to PhD students, post-docs and other high-level researchers
-in Sweden ([NBIS](https://nbis.se/)), Switzerland
-([SIB](https://www.sib.swiss/)) and other countries in the
-[ELIXIR](https://elixir-europe.org/) network. I am a Course Leader for the NBIS
-Tools for Reproducible Research NBIS course. I am also a certified [Carpentry
-Instructor](https://software-carpentry.org/). For a full list of the courses I
-have taught, please visit [my website](https://fasterius.github.io/teaching/).
+I have been involved in several advanced bioinformatics courses, all of which
+are offered to PhD students, post-docs and other researchers in Sweden
+([NBIS](https://nbis.se/)), Switzerland ([SIB](https://www.sib.swiss/)) and
+countries in the [ELIXIR](https://elixir-europe.org/) network. I am a Course
+Leader for the NBIS Tools for Reproducible Research NBIS course. For a full list
+of the courses I have taught, please visit [my website](https://fasterius.github.io/teaching/).
 
 ```{r}
 #| eval: false
