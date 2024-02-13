@@ -24,7 +24,7 @@ contributions.
 
 ## Open Source contributions
 
-- [nf-core/modules/spaceranger](https://nf-co.re/modules/spaceranger){:target="blank"},
+- [nf-core/modules/spaceranger](https://nf-co.re/modules/spaceranger_count){:target="blank"},
   a Nextflow/[nf-core](https://nf-co.re/){:target="blank"} module for the 10x
   Genomics Space Ranger software.
 
