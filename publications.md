@@ -7,6 +7,14 @@
                      padding: 1px; }
 </style>
 
+**[Macrophages upregulate mural cell-like markers and support healing of
+ischemic injury by adopting functions important for vascular
+support](https://doi.org/10.1038/s44161-024-00478-0){:target="blank"}**,
+Amoedo-Leite C, Parv K, Testini C, Herrera-Hidalgo C, Xu F, Giraud A, Malaquias
+M, <span class="texthighlight">**Fasterius E**</span>, Holl D, Seignez C, Göritz
+C, Christoffersson G & Phillipson M (2024). Nature Cardiovascular Research, 3,
+685–700.
+
 **[Characterization of hemocytes and hematopoietic cells of a freshwater crayfish
 based on single-cell transcriptome analysis](https://doi.org/10.1016/j.isci.2022.104850){:target="blank"}**,
 Söderhäll I, <span class="texthighlight">**Fasterius E**</span>, Ekblom C,
