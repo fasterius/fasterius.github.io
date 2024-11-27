@@ -1,0 +1,13 @@
+[project]
+authors = ["Erik Fasterius <erik.fasterius@outlook.com>"]
+channels = ["conda-forge", "bioconda"]
+description = "Environment for building the CV"
+name = "cv-env"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+r-rmarkdown = "2.25.*"
+r-tibble = "3.2.1.*"
