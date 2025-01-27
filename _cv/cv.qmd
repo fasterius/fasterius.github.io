@@ -168,17 +168,16 @@ cvteach <- function(tbl, what, when, with, where, href) {
 # Summary
 
 I am a bioinformatician and a scientist working mainly with computational
-biology, pipeline development and advanced training. I come from a background in
-biotechnology and thus have an understanding of both bioinformatics and the
-underlying biology. I have experience working with software development, machine
-learning, cancer biology, drug screening and cell line authentication.
-I am also very passionate about reproducibility and data visualization. \
+biology, pipeline development and advanced training. I have experience working
+with software development, cancer biology, machine learning, and cell line
+authentication. I am also very passionate about reproducibility and data
+visualization. \
 
 I am analytically minded, thorough and enjoy problem-solving at all levels. I
 have always liked sharing my knowledge with others, be that through more
 traditional teaching avenues or through corridor-conversations with colleagues.
-Learning new things is something I have always appreciated. I'm creative,
-adaptable and social.
+Learning new things is something I have always enjoyed. I'm creative, adaptable
+and social.
 
 # Experience
 
@@ -188,13 +187,13 @@ adaptable and social.
 tibble::tribble(
     ~role, ~institution, ~dates, ~descr,
     "Senior Bioinformatician", "National Bioinformatics Infrastructure Sweden\nSciLifeLab, Stockholm, Sweden", "2019 - Present", "At NBIS I provided advanced bioinformatic support and guidance to life science researchers in Sweden through the SciLifeLab community. Here, I collaborated with interdisciplinary teams to deliver tailored bioinformatics solutions for high-impact research projects. Through my work at NBIS I designed and implemented several reproducible bioinformatic workflows, facilitating scalability and reliability for life science research. I led training initiatives both at the local Swedish level as well as at the European level through ELIXIR, empowering researchers with cutting-edge computational biology techniques.",
-    "PhD Student", "KTH Royal Institute of Technology\nStockholm, Sweden", "2014 - 2018", "During my PhD studies I investigated genetic heterogeneity in human cancer models using both bulk and single cell RNA-seq technologies. I developed innovative approaches by leveraging both traditional gene expression-based analyses and non-traditional single nucleotide variant analysis of publicly available (sc)RNA-seq datasets, now available as two R and Python open source packages.",
+    "PhD Student", "KTH Royal Institute of Technology\nStockholm, Sweden", "2014 - 2018", "During my PhD I investigated genetic heterogeneity in human cancer models using both bulk and single cell RNA-seq technologies. I developed innovative approaches by leveraging both traditional gene expression-based analyses and non-traditional single nucleotide variant analysis of publicly available (sc)RNA-seq datasets, now available as two R and Python open source packages.",
     # "Master Student", "KTH Royal Institute of Technology\nStockholm, Sweden", "2006 - 2013", "",
 ) |>
     cvevent(when = "dates", what = "role", where = "institution", descr = "descr")
 ```
 
-# Open Source projects
+# Projects
 
 ```{r}
 #| label: projects
