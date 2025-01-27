@@ -167,7 +167,7 @@ biology, pipeline development and advanced training. I come from a background in
 biotechnology and thus have an understanding of both bioinformatics and the
 underlying biology. I have experience working with software development, machine
 learning, cancer biology, drug screening and cell line authentication.
-I am also very interested in reproducibility and data visualization. \
+I am also very passionate about reproducibility and data visualization. \
 
 I am analytically minded, thorough and enjoy problem-solving at all levels. I
 have always liked sharing my knowledge with others, be that through more
@@ -211,9 +211,9 @@ tibble::tribble(
 # Teaching
 
 I have been involved in several advanced bioinformatics courses, all of which
-are offered to PhD students, post-docs and other researchers in Sweden
-([NBIS](https://nbis.se/)), Switzerland ([SIB](https://www.sib.swiss/)) and
-countries in the [ELIXIR](https://elixir-europe.org/) network. I am a Course
+are offered to PhD students, post-docs, group leaders and other researchers in
+Sweden ([NBIS](https://nbis.se/)), Switzerland ([SIB](https://www.sib.swiss/))
+and countries in the [ELIXIR](https://elixir-europe.org/) network. I am a Course
 Leader for the NBIS Tools for Reproducible Research NBIS course. For a full list
 of the courses I have taught, please visit [my website](https://fasterius.github.io/teaching/).
 
