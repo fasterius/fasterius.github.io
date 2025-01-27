@@ -15,10 +15,10 @@ nocite: |
   @*
 sidebar:
   image: ../assets/img/profile-picture.jpg
-  bullets:
-    - Lives in Stockholm, Sweden
-    - Married to wife Linda
-    - Twin daughters Saga and Tilda
+  # bullets:
+  #   - Lives in Stockholm, Sweden
+  #   - Married to wife Linda
+  #   - Twin daughters Saga and Tilda
   sections:
     - name: Tools
       items:
