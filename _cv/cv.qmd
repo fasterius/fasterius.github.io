@@ -82,6 +82,7 @@ sidebar:
       items:
         - Computational biology
         - Transcriptomics
+        - Genomics
         - Reproducibility
         - Pipeline development
         - Data visualisation
