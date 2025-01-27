@@ -24,40 +24,44 @@ sidebar:
       items:
         - text: Git / GitHub
           exp:
-            text: "8 years"
-            num: 0.8
+            text: "9 years"
+            num: 0.9
         - text: Docker
-          exp:
-            text: "4 years"
-            num: 0.4
-        - text: Conda
           exp:
             text: "5 years"
             num: 0.5
-        - text: R
+        - text: Conda
           exp:
-            text: "10 yrs."
-            num: 1
-        - text: Python
-          exp:
-            text: "4 years"
-            num: 0.4
-        - text: Unix / Bash
-          exp:
-            text: "10 yrs."
-            num: 1
-        - text: Nextflow / nf-core
-          exp:
-            text: "4 years"
-            num: 0.4
-        - text: Snakemake
-          exp:
-            text: "7 years"
-            num: 0.7
-        - text: Quarto
+            text: "6 years"
+            num: 0.6
+        - text: Pixi
           exp:
             text: "1 years"
             num: 0.1
+        - text: R
+          exp:
+            text: "10+ yrs."
+            num: 1
+        - text: Python
+          exp:
+            text: "5 years"
+            num: 0.5
+        - text: Unix / Bash
+          exp:
+            text: "10+ yrs."
+            num: 1
+        - text: Nextflow / nf-core
+          exp:
+            text: "5 years"
+            num: 0.5
+        - text: Snakemake
+          exp:
+            text: "4 years"
+            num: 0.4
+        - text: Quarto
+          exp:
+            text: "2 years"
+            num: 0.2
         - text: R Markdown
           exp:
             text: "8 years"
@@ -68,22 +72,21 @@ sidebar:
             num: 0.6
         - text: HPC
           exp:
-            text: "10 yrs."
+            text: "10+ yrs."
             num: 1
         - text: Vim
           exp:
-            text: "7 years"
-            num: 0.7
+            text: "9 years"
+            num: 0.9
     - name: Skills
       items:
         - Computational biology
         - Transcriptomics
-        - Genomics
-        - Pipeline development
         - Reproducibility
+        - Pipeline development
         - Data visualisation
         - Statistics
-        - Creative problem solving
+        - Problem solving
         - Teaching
         - Public speaking
         - Scientific writing
