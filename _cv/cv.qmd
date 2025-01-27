@@ -202,6 +202,7 @@ tibble::tribble(
     "nf-core/quartonotebook (module)", "Creator \\& Maintainer", "A nf-core module for rendering Quarto notebooks.", "https://nf-co.re/modules/quartonotebook",
     "nf-core/spaceranger (module)", "Contributor", "A nf-core module for processing Visium data using the Space Ranger software.", "https://nf-co.re/modules/spaceranger_count",
     "Quarto nf-core template", "Creator \\& Maintainer", "A Quarto template for the nf-core community.", "https://github.com/fasterius/nf-core-quarto-template",
+    "simple-zoom.nvim (Neovim plugin)", "Creator \\& Maintainer", "A simple plugin to add a Tmux-like zoom functionality to Neovim", "https://github.com/fasterius/simple-zoom.nvim",
     "seqCAT (R package)", "Creator \\& Maintainer", "An R/Bioconductor package for variant analysis and cell authentication using HTS data.", "https://www.bioconductor.org/packages/release/bioc/html/seqCAT.html",
     "VarClust (Python package)", "Creator \\& Maintainer", "A Python package for variant analyses of single-cell HTS data.", "https://github.com/fasterius/VarClust",
     "RNA-VC (pipeline)", "Creator \\& Maintainer", "A Snakemake pipeline for variant analyses of publicly available RNA-seq data.", "https://github.com/fasterius/RNA-VC",
