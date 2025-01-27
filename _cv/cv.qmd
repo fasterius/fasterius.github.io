@@ -201,15 +201,16 @@ tibble::tribble(
 #| output: asis
 tibble::tribble(
     ~what, ~role, ~text, ~href,
-    "nf-core/spatialvi (pipeline)", "Creator \\& Maintainer", "A nf-core pipeline for analysing 10x Visium spatial transcriptomics data.", "https://github.com/nf-core/spatialvi",
-    "nf-core/rifseq (pipeline)", "Creator \\& Maintainer", "A nf-core pipeline for analysing the new RIF-seq sequencing method for large-scale, in-plate drug screening by the Mats Nilsson laboratory at SciLifeLab (currently not publicly available).", "",
-    "nf-core/quartonotebook (module)", "Creator \\& Maintainer", "A nf-core module for rendering Quarto notebooks.", "https://nf-co.re/modules/quartonotebook",
-    "nf-core/spaceranger (module)", "Contributor", "A nf-core module for processing Visium data using the Space Ranger software.", "https://nf-co.re/modules/spaceranger_count",
-    "Quarto nf-core template", "Creator \\& Maintainer", "A Quarto template for the nf-core community.", "https://github.com/fasterius/nf-core-quarto-template",
-    "simple-zoom.nvim (Neovim plugin)", "Creator \\& Maintainer", "A simple plugin to add a Tmux-like zoom functionality to Neovim", "https://github.com/fasterius/simple-zoom.nvim",
-    "seqCAT (R package)", "Creator \\& Maintainer", "An R/Bioconductor package for variant analysis and cell authentication using HTS data.", "https://www.bioconductor.org/packages/release/bioc/html/seqCAT.html",
-    "VarClust (Python package)", "Creator \\& Maintainer", "A Python package for variant analyses of single-cell HTS data.", "https://github.com/fasterius/VarClust",
-    "RNA-VC (pipeline)", "Creator \\& Maintainer", "A Snakemake pipeline for variant analyses of publicly available RNA-seq data.", "https://github.com/fasterius/RNA-VC",
+    "nf-core/spatialvi", "(creator \\& maintainer)", "A nf-core pipeline for analysing 10x Visium spatial transcriptomics data.", "https://github.com/nf-core/spatialvi",
+    "nf-core/rifseq", "(creator \\& maintainer)", "A nf-core pipeline for analysing the new RIF-seq sequencing method for large-scale, in-plate drug screening by the Mats Nilsson laboratory at SciLifeLab (currently not publicly available).", "",
+    "nf-core/quartonotebook", "(creator \\& maintainer)", "A nf-core module for rendering Quarto notebooks.", "https://nf-co.re/modules/quartonotebook",
+    "nf-core/spaceranger", "(contributor)", "A nf-core module for processing Visium data using the Space Ranger software.", "https://nf-co.re/modules/spaceranger_count",
+    "Quarto nf-core template", "(creator \\& maintainer)", "A Quarto template for the nf-core community.", "https://github.com/fasterius/nf-core-quarto-template",
+    "simple-zoom.nvim", "(creator \\& maintainer)", "A simple plugin to add a Tmux-like zoom functionality to Neovim", "https://github.com/fasterius/simple-zoom.nvim",
+    "telekasten.nvim", "(contributor)", "A Neovim plugin for working with a text-based, markdown zettelkasten", "https://github.com/nvim-telekasten/telekasten.nvim",
+    "seqCAT", "(creator \\& maintainer)", "An R/Bioconductor package for variant analysis and cell authentication using HTS data.", "https://www.bioconductor.org/packages/release/bioc/html/seqCAT.html",
+    "VarClust", "(creator \\& maintainer)", "A Python package for variant analyses of single-cell HTS data.", "https://github.com/fasterius/VarClust",
+    "RNA-VC", "(creator \\& maintainer)", "A Snakemake pipeline for variant analyses of publicly available RNA-seq data.", "https://github.com/fasterius/RNA-VC",
 ) |>
     cvproj(what = "what", role = "role", text = "text", href = "href")
 ```
