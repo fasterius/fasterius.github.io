@@ -20,24 +20,44 @@ sidebar:
   #   - Married to wife Linda
   #   - Twin daughters Saga and Tilda
   sections:
+    - name: Skills
+      items:
+        - Computational biology
+        - Transcriptomics
+        - Genomics
+        - Reproducibility
+        - Pipeline development
+        - Data visualisation
+        - Statistics
+        - Problem solving
+        - Teaching
+        - Public speaking
+        - Scientific writing
+    - name: # Empty section for whitespace
+    - name: # Empty section for whitespace
+    - name: # Empty section for whitespace
+    - name: # Empty section for whitespace
+    - name: Contact
+      items:
+        - icon: phone
+          text: "(+46) 070 714 36 96"
+        - icon: envelope
+          text: erik.fasterius@outlook.com
+        - icon: home
+          text: fasterius.github.io
+          href: https://fasterius.github.io/
+        - icon: github
+          text: fasterius
+          href: https://github.com/fasterius
+        - icon: linkedin
+          text: Erik Fasterius
+          href: https://www.linkedin.com/in/erik-fasterius
     - name: Tools
       items:
-        - text: Git / GitHub
+        - text: Unix / Bash
           exp:
-            text: "9 years"
-            num: 0.9
-        - text: Docker
-          exp:
-            text: "5 years"
-            num: 0.5
-        - text: Conda
-          exp:
-            text: "6 years"
-            num: 0.6
-        - text: Pixi
-          exp:
-            text: "1 years"
-            num: 0.1
+            text: "10+ yrs."
+            num: 1
         - text: R
           exp:
             text: "10+ yrs."
@@ -46,10 +66,26 @@ sidebar:
           exp:
             text: "5 years"
             num: 0.5
-        - text: Unix / Bash
+        - text: HPCs
           exp:
             text: "10+ yrs."
             num: 1
+        - text: Git / GitHub
+          exp:
+            text: "9 years"
+            num: 0.9
+        - text: Conda
+          exp:
+            text: "6 years"
+            num: 0.6
+        - text: Docker
+          exp:
+            text: "5 years"
+            num: 0.5
+        - text: Pixi
+          exp:
+            text: "1 years"
+            num: 0.1
         - text: Nextflow / nf-core
           exp:
             text: "5 years"
@@ -70,27 +106,10 @@ sidebar:
           exp:
             text: "6 years"
             num: 0.6
-        - text: HPC
-          exp:
-            text: "10+ yrs."
-            num: 1
         - text: Vim
           exp:
             text: "9 years"
             num: 0.9
-    - name: Skills
-      items:
-        - Computational biology
-        - Transcriptomics
-        - Genomics
-        - Reproducibility
-        - Pipeline development
-        - Data visualisation
-        - Statistics
-        - Problem solving
-        - Teaching
-        - Public speaking
-        - Scientific writing
     # - name: Education
     #   items:
     #     - text: "Ph.D. Biotechnology"
@@ -100,21 +119,6 @@ sidebar:
     #     - text: "Master of Science in Engineering (Biotechnology)"
     #       inst: "KTH Royal Institute of Technology"
     #       time: "2006 - 2013"
-    - name: Contact
-      items:
-        - icon: phone
-          text: "(+46) 070 714 36 96"
-        - icon: envelope
-          text: erik.fasterius@outlook.com
-        - icon: home
-          text: fasterius.github.io
-          href: https://fasterius.github.io/
-        - icon: github
-          text: fasterius
-          href: https://github.com/fasterius
-        - icon: linkedin
-          text: Erik Fasterius
-          href: https://www.linkedin.com/in/erik-fasterius
 execute:
   echo: false
 ---
