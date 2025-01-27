@@ -220,6 +220,7 @@ of the courses I have taught, please visit [my website](https://fasterius.github
 #| output: asis
 tibble::tribble(
     ~what, ~when, ~with, ~where, ~href,
+    "Tools for Reproducible Research", "2024, autumn", "NBIS/ELIXIR", "Stockholm, Sweden", "https://nbisweden.github.io/workshop-reproducible-research/home_schedule.html",
     "Tools for Reproducible Research", "2023, autumn", "NBIS/ELIXIR", "Stockholm, Sweden", "https://uppsala.instructure.com/courses/87979",
     "Tools for Reproducible Research", "2023, spring", "NBIS/ELIXIR", "Online", "https://uppsala.instructure.com/courses/82575",
     "Tools for Reproducible Research", "2022, spring", "NBIS/ELIXIR", "Online", "https://uppsala.instructure.com/courses/58267",

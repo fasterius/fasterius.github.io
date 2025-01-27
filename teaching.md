@@ -6,8 +6,12 @@ and other high-level researchers in Sweden ([NBIS](https://nbis.se/){:target="bl
 Switzerland ([SIB](https://www.sib.swiss/){:target="blank"}) and other countries
 in the [ELIXIR](https://elixir-europe.org/){:target="blank"} network. I am a
 Course Leader for the [Tools for Reproducible Research](https://uppsala.instructure.com/courses/51980){:target="blank"}
-NBIS course. I am also a certified [Carpentry Instructor](https://software-carpentry.org/){:target="blank"}.
-I have taught in both classroom and online settings.
+NBIS course. I have taught in both classroom and online settings.
+
+## 2024
+
+**[Tools for Reproducible Research (autumn)](https://nbisweden.github.io/workshop-reproducible-research/){:target="blank"}**
+<br> NBIS/ELIXIR, Stockholm (Sweden), 5 days
 
 ## 2023
 
