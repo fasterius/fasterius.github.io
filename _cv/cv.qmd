@@ -197,7 +197,7 @@ tibble::tribble(
 #| output: asis
 tibble::tribble(
     ~what, ~role, ~text, ~href,
-    "nf-core/spatialtranscriptomics (pipeline)", "Creator \\& Maintainer", "A nf-core pipeline for analysing Visium spatial transcriptomics data.", "https://github.com/nf-core/spatialtranscriptomics",
+    "nf-core/spatialvi (pipeline)", "Creator \\& Maintainer", "A nf-core pipeline for analysing 10x Visium spatial transcriptomics data.", "https://github.com/nf-core/spatialvi",
     "nf-core/rifseq (pipeline)", "Creator \\& Maintainer", "A nf-core pipeline for analysing the new RIF-seq sequencing method for large-scale, in-plate drug screening by the Mats Nilsson laboratory at SciLifeLab (currently not publicly available).", "",
     "nf-core/quartonotebook (module)", "Creator \\& Maintainer", "A nf-core module for rendering Quarto notebooks.", "https://nf-co.re/modules/quartonotebook",
     "nf-core/spaceranger (module)", "Contributor", "A nf-core module for processing Visium data using the Space Ranger software.", "https://nf-co.re/modules/spaceranger_count",
