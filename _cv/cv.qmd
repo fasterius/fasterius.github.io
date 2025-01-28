@@ -178,7 +178,7 @@ Known for being analytical, thorough, and a natural problem-solver, I thrive in
 collaborative environments and enjoy sharing knowledge — whether through formal
 teaching, mentoring, or casual discussions with colleagues. My curiosity,
 adaptability, and creativity drive me to continuously learn and contribute to
-ongoing scientific progress.
+scientific progress.
 
 # Experience
 
@@ -188,7 +188,7 @@ ongoing scientific progress.
 tibble::tribble(
     ~role, ~institution, ~dates, ~descr,
     "Senior Bioinformatician", "National Bioinformatics Infrastructure Sweden\nSciLifeLab, Stockholm, Sweden", "2019 - Present", "At NBIS I provided advanced bioinformatic support and guidance to life science researchers in Sweden within the SciLifeLab community. Collaborating with interdisciplinary teams, I delivered tailored bioinformatics solutions for diverse research projects, involving both bulk and single-cell RNA-seq as well as novel technologies for spatial transcriptomics and high-throughput drug screenings. I designed and implemented several reproducible bioinformatic workflows, including contributions to the nf-core community, facilitating scalability and reliability for life science research. Additionally, I led training initiatives locally in Sweden and at the European level through ELIXIR, equipping researchers with state-of-the-art computational biology techniques.",
-    "PhD Student", "KTH Royal Institute of Technology\nStockholm, Sweden", "2014 - 2018", "During my PhD I investigated genetic heterogeneity in human cancer models using (sc)RNA-seq technologies. I developed innovative approaches by leveraging both traditional gene expression and non-traditional single nucleotide variant analysis of publicly available datasets, now available as two R and Python open source packages.",
+    "PhD Student", "KTH Royal Institute of Technology\nStockholm, Sweden", "2014 - 2018", "During my PhD I investigated genetic heterogeneity in human cancer models using (sc)RNA-seq technologies. I developed innovative approaches by leveraging both traditional gene expression and non-traditional single nucleotide variant analysis of publicly available datasets, available as R and Python packages.",
     # "Master Student", "KTH Royal Institute of Technology\nStockholm, Sweden", "2006 - 2013", "",
 ) |>
     cvevent(when = "dates", what = "role", where = "institution", descr = "descr")
@@ -202,7 +202,7 @@ tibble::tribble(
 tibble::tribble(
     ~what, ~role, ~text, ~href,
     "nf-core/spatialvi", "(creator \\& maintainer)", "A nf-core pipeline for analysing 10x Visium spatial transcriptomics data.", "https://github.com/nf-core/spatialvi",
-    "nf-core/rifseq", "(creator \\& maintainer)", "A nf-core pipeline for analysing the new RIF-seq sequencing method for large-scale, in-plate drug screening by the Mats Nilsson laboratory at SciLifeLab (currently not publicly available).", "",
+    "nf-core/rifseq", "(creator \\& maintainer)", "A nf-core pipeline for analysing the RIF-seq sequencing method for large-scale drug screening by the Mats Nilsson laboratory (currently not publicly available).", "",
     "nf-core/quartonotebook", "(creator \\& maintainer)", "A nf-core module for rendering Quarto notebooks.", "https://nf-co.re/modules/quartonotebook",
     "nf-core/spaceranger", "(contributor)", "A nf-core module for processing Visium data using the Space Ranger software.", "https://nf-co.re/modules/spaceranger_count",
     "Quarto nf-core template", "(creator \\& maintainer)", "A Quarto template for the nf-core community.", "https://github.com/fasterius/nf-core-quarto-template",
