@@ -167,17 +167,18 @@ cvteach <- function(tbl, what, when, with, where, href) {
 
 # Summary
 
-I am a bioinformatician and a scientist working mainly with computational
-biology, pipeline development and advanced training. I have experience working
-with software development, cancer biology, machine learning, and cell line
-authentication. I am also very passionate about reproducibility and data
-visualization. \
+I am a skilled bioinformatician and scientist specializing in computational
+biology, pipeline development, and advanced training. With a proven track record
+of combining established techniques with innovative, novel approaches, I bring a
+multidisciplinary perspective to tackling complex research challenges.
+Passionate about reproducibility and data visualization, I excel at designing
+scalable and reliable workflows that empower scientific discovery. \
 
-I am analytically minded, thorough and enjoy problem-solving at all levels. I
-have always liked sharing my knowledge with others, be that through more
-traditional teaching avenues or through corridor-conversations with colleagues.
-Learning new things is something I have always enjoyed. I'm creative, adaptable
-and social.
+Known for being analytical, thorough, and a natural problem-solver, I thrive in
+collaborative environments and enjoy sharing knowledge — whether through formal
+teaching, mentoring, or casual discussions with colleagues. My curiosity,
+adaptability, and creativity drive me to continuously learn and contribute to
+ongoing scientific progress.
 
 # Experience
 
