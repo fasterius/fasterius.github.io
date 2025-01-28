@@ -217,10 +217,10 @@ tibble::tribble(
 
 # Teaching
 
-I have designed and led advanced bioinformatics courses for PhD students,
-postdocs and group leaders through the NBIS and ELIXIR networks. I have
-delivered training sessions across Sweden, Switzerland and online, focusing on
-the **[Tools for Reproducible Research](https://nbisweden.github.io/workshop-reproducible-research/home_schedule.html)**,
+I have designed and led advanced bioinformatics courses, teaching over 250 PhD
+students, postdocs and group leaders through the NBIS and ELIXIR networks. I
+have delivered training sessions across Sweden, Switzerland and online, focusing
+on the **[Tools for Reproducible Research](https://nbisweden.github.io/workshop-reproducible-research/home_schedule.html)**,
 for which I am a course leader. A comprehensive teaching portfolio is available
 at **[my website](https://fasterius.github.io/teaching/)**.
 
