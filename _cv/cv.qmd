@@ -193,7 +193,7 @@ tibble::tribble(
     cvevent(when = "dates", what = "role", where = "institution", descr = "descr")
 ```
 
-# Projects
+# Open Source
 
 ```{r}
 #| label: projects
