@@ -182,10 +182,15 @@ tibble::tribble(
 I have designed and led advanced bioinformatics courses, teaching over 250 PhD
 students, postdocs and group leaders through the NBIS and ELIXIR networks. I
 have delivered training sessions across Sweden, Europe and online, mainly
-through **[Tools for Reproducible Research](https://nbisweden.github.io/workshop-reproducible-research)**,
-for which I am a course leader, but also **[Single cell RNA-seq data analysis](https://nbisweden.github.io/workshop-scRNAseq/)**
-and **[Introduction to bioinformatics using NGS data](https://nbisweden.github.io/workshop-ngsintro/2411/)**.
-A comprehensive teaching portfolio is available at **[my website](https://fasterius.github.io/teaching/)**.
+through **[Tools for Reproducible Research][TRR]**, for which I am a course
+leader, but also **[Single cell RNA-seq data analysis][scRNA]** and
+**[Introduction to bioinformatics using NGS data][NGS-intro]**. A comprehensive
+teaching portfolio is available at **[my website][website]**.
+
+[TRR]: https://nbisweden.github.io/workshop-reproducible-research
+[scRNA]: https://nbisweden.github.io/workshop-scRNAseq/
+[NGS-intro]: https://nbisweden.github.io/workshop-ngsintro/2411/
+[website]: https://fasterius.github.io/teaching/
 
 ```{r}
 #| eval: false
