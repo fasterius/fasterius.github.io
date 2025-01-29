@@ -54,62 +54,20 @@ sidebar:
           href: https://www.linkedin.com/in/erik-fasterius
     - name: Tools
       items:
-        - text: Unix / Bash
-          exp:
-            text: "10+ yrs."
-            num: 1
-        - text: R
-          exp:
-            text: "10+ yrs."
-            num: 1
-        - text: Python
-          exp:
-            text: "5 years"
-            num: 0.5
-        - text: HPCs
-          exp:
-            text: "10+ yrs."
-            num: 1
-        - text: Git / GitHub
-          exp:
-            text: "9 years"
-            num: 0.9
-        - text: Conda
-          exp:
-            text: "6 years"
-            num: 0.6
-        - text: Docker
-          exp:
-            text: "5 years"
-            num: 0.5
-        - text: Pixi
-          exp:
-            text: "1 years"
-            num: 0.1
-        - text: Nextflow / nf-core
-          exp:
-            text: "5 years"
-            num: 0.5
-        - text: Snakemake
-          exp:
-            text: "4 years"
-            num: 0.4
-        - text: Quarto
-          exp:
-            text: "2 years"
-            num: 0.2
-        - text: R Markdown
-          exp:
-            text: "8 years"
-            num: 0.8
-        - text: LaTeX
-          exp:
-            text: "6 years"
-            num: 0.6
-        - text: Vim
-          exp:
-            text: "9 years"
-            num: 0.9
+        - R
+        - Python
+        - Unix / Bash
+        - High-performance computing
+        - Git / GitHub
+        - Nextflow / nf-core
+        - Snakemake
+        - Conda
+        - Docker
+        - Pixi
+        - Quarto
+        - R Markdown
+        - LaTeX
+        - Vim
     # - name: Education
     #   items:
     #     - text: "Ph.D. Biotechnology"
