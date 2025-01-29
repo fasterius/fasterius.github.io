@@ -24,16 +24,17 @@ sidebar:
       items:
         - Computational biology
         - Transcriptomics
+        - Spatial transcriptomics
+        - NGS
         - Genomics
-        - Reproducibility
         - Pipeline development
-        - Data visualisation
         - Statistics
+        - Data visualisation
+        - Reproducibility
         - Problem solving
         - Teaching
         - Public speaking
         - Scientific writing
-    - name: # Empty section for whitespace
     - name: # Empty section for whitespace
     - name: # Empty section for whitespace
     - name: # Empty section for whitespace
@@ -125,12 +126,12 @@ cvteach <- function(tbl, what, when, with, where, href) {
 
 # Summary
 
-I am a skilled bioinformatician and scientist specializing in computational
-biology, pipeline development, and advanced training. With a proven track record
-of combining established techniques with innovative, novel approaches, I bring a
-multidisciplinary perspective to tackling complex research challenges.
-Passionate about reproducibility and data visualization, I excel at designing
-scalable and reliable workflows that empower scientific discovery. \
+I am a bioinformatician and scientist specializing in computational biology,
+pipeline development, and advanced training. I have led projects involving bulk
+and single-cell RNA-seq, spatial transcriptomics, RNA-seq/WES-based variant
+analysis, transcriptional pharmacodynamics and high-throughput drug screening. I
+frequently collaborate with clinicians and other non-bioinformaticians, guiding
+experimental design and generating hypotheses that drive publications. \
 
 Known for being analytical, thorough, and a natural problem-solver, I thrive in
 collaborative environments and enjoy sharing knowledge — whether through formal
