@@ -133,11 +133,13 @@ analysis, transcriptional pharmacodynamics and high-throughput drug screening. I
 frequently collaborate with clinicians and other non-bioinformaticians, guiding
 experimental design and generating hypotheses that drive publications. \
 
+I am passionate about reproducibility and data visualization, excelling at
+designing scalable and reliable pipelines that empower scientific discovery.
 Known for being analytical, thorough, and a natural problem-solver, I thrive in
 collaborative environments and enjoy sharing knowledge — whether through formal
 teaching, mentoring, or casual discussions with colleagues. My curiosity,
 adaptability, and creativity drive me to continuously learn and contribute to
-scientific progress.
+scientific research.
 
 # Experience
 
