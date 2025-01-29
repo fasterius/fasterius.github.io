@@ -164,7 +164,7 @@ tibble::tribble(
 tibble::tribble(
     ~what, ~role, ~text, ~href,
     "nf-core/spatialvi", "(creator \\& maintainer)", "A Nextflow pipeline for analysing 10x Visium \\textbf{spatial transcriptomics data}.", "https://github.com/nf-core/spatialvi",
-    "nf-core/rifseq", "(creator \\& maintainer)", "A Nextflow pipeline for analysing the RIF-seq sequencing method for \\textbf{large-scale drug screening} by the Mats Nilsson laboratory (currently not publicly available).", "",
+    "nf-core/rifseq", "(creator \\& maintainer)", "A Nextflow pipeline for analysing the RIF-seq sequencing method for \\textbf{large-scale drug screening} (currently not publicly available pending publication).", "",
     "seqCAT", "(creator \\& maintainer)", "An R/Bioconductor package for \\textbf{variant analysis} of NGS data.", "https://www.bioconductor.org/packages/release/bioc/html/seqCAT.html",
     "VarClust", "(creator \\& maintainer)", "A Python package for \\textbf{variant analysis} of single-cell NGS data.", "https://github.com/fasterius/VarClust",
     "RNA-VC", "(creator \\& maintainer)", "A Snakemake pipeline for \\textbf{variant analysis} of publicly available RNA-seq data.", "https://github.com/fasterius/RNA-VC",
@@ -181,10 +181,11 @@ tibble::tribble(
 
 I have designed and led advanced bioinformatics courses, teaching over 250 PhD
 students, postdocs and group leaders through the NBIS and ELIXIR networks. I
-have delivered training sessions across Sweden, Switzerland and online, focusing
-on the **[Tools for Reproducible Research](https://nbisweden.github.io/workshop-reproducible-research/home_schedule.html)**,
-for which I am a course leader. A comprehensive teaching portfolio is available
-at **[my website](https://fasterius.github.io/teaching/)**.
+have delivered training sessions across Sweden, Europe and online, mainly
+through **[Tools for Reproducible Research](https://nbisweden.github.io/workshop-reproducible-research)**,
+for which I am a course leader, but also **[Single cell RNA-seq data analysis](https://nbisweden.github.io/workshop-scRNAseq/)**
+and **[Introduction to bioinformatics using NGS data](https://nbisweden.github.io/workshop-ngsintro/2411/)**.
+A comprehensive teaching portfolio is available at **[my website](https://fasterius.github.io/teaching/)**.
 
 ```{r}
 #| eval: false
