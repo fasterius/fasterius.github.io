@@ -68,7 +68,6 @@ sidebar:
         - Quarto
         - R Markdown
         - LaTeX
-        - Vim
     # - name: Education
     #   items:
     #     - text: "Ph.D. Biotechnology"
