@@ -4,12 +4,12 @@ format:
   modern2-cv-pdf:
     cite-method: biblatex
     biblio-style: authoryear
-author: Erik Fasterius
+author: Erik Fasterius, PhD
 cvfont: raleway # TeXLive fonts like raleway,fetamont,gillius,comfortaa
 cvcolor:
   main: 749fc8 # Text & arrow colours
   accent: 004b96 # Block & header underline colours
-jobtitle: Senior Bioinformatician
+jobtitle: Bioinformatician, scientist, developer
 bibliography: data/publications.bib
 nocite: |
   @*
@@ -137,7 +137,7 @@ I am passionate about reproducibility and data visualization, excelling at
 designing scalable and reliable bioinformatic **pipelines** that empower
 scientific discovery. Known for being analytical, thorough, and a natural
 problem-solver, I thrive in **collaborative environments** and enjoy sharing
-knowledge — whether through formal teaching, mentoring, or casual discussions
+knowledge, whether through formal teaching, mentoring, or casual discussions
 with colleagues. My curiosity, adaptability, and creativity drive me to
 continuously learn and contribute to scientific research.
 
@@ -148,7 +148,7 @@ continuously learn and contribute to scientific research.
 #| output: asis
 tibble::tribble(
     ~role, ~institution, ~dates, ~descr,
-    "Senior Bioinformatician", "National Bioinformatics Infrastructure Sweden\nSciLifeLab, Stockholm, Sweden", "2019 - Present", "At NBIS I provided advanced bioinformatic support and guidance to life science researchers in Sweden within the SciLifeLab community. Collaborating within interdisciplinary teams, I delivered \\textbf{tailored bioinformatics solutions for diverse research projects}, involving both bulk and single-cell RNA-seq, transcriptional pharmacodynamics as well as novel technologies for spatial transcriptomics and high-throughput drug screenings. I designed and implemented several reproducible \\textbf{bioinformatic pipelines}, facilitating scalability and reliability for life science research. Additionally, I \\textbf{led training initiatives} locally in Sweden and at the European level, equipping researchers with state-of-the-art computational biology techniques.",
+    "Bioinformatician", "National Bioinformatics Infrastructure Sweden\nSciLifeLab, Stockholm, Sweden", "2019 - Present", "At NBIS I provided advanced bioinformatic support and guidance to life science researchers in Sweden within the SciLifeLab community. Collaborating within interdisciplinary teams, I delivered \\textbf{tailored bioinformatics solutions for diverse research projects}, involving both bulk and single-cell RNA-seq, transcriptional pharmacodynamics as well as novel technologies for spatial transcriptomics and high-throughput drug screenings. I designed and implemented several reproducible \\textbf{bioinformatic pipelines}, facilitating scalability and reliability for life science research. Additionally, I \\textbf{led training initiatives} locally in Sweden and at the European level, equipping researchers with state-of-the-art computational biology techniques.",
     "PhD Student", "KTH Royal Institute of Technology\nStockholm, Sweden", "2014 - 2018", "During my PhD I investigated genetic heterogeneity in \\textbf{human cancer models} using (sc)RNA-seq technologies. I developed innovative approaches by leveraging both traditional \\textbf{gene expression} and non-traditional \\textbf{single nucleotide variant analysis} of publicly available datasets, available as R and Python packages.",
     # "Master Student", "KTH Royal Institute of Technology\nStockholm, Sweden", "2006 - 2013", "",
 ) |>
@@ -171,7 +171,7 @@ tibble::tribble(
     "nf-core/quartonotebook", "(creator \\& maintainer)", "A nf-core module for rendering Quarto notebooks.", "https://nf-co.re/modules/quartonotebook",
     "Quarto nf-core template", "(creator \\& maintainer)", "A Quarto template for the nf-core community.", "https://github.com/fasterius/nf-core-quarto-template",
     "simple-zoom.nvim", "(creator \\& maintainer)", "A simple plugin to add a Tmux-like zoom functionality to Neovim.", "https://github.com/fasterius/simple-zoom.nvim",
-    "telekasten.nvim", "(contributor)", "A Neovim plugin for working with a text-based, markdown zettelkasten.", "https://github.com/nvim-telekasten/telekasten.nvim",
+    "slime-peek.nvim", "(creator \\& maintainer)", "A Neovim plugin for working with data exploration within R and Python.", "https://github.com/fasterius/slime-peek.nvim",
 ) |>
     cvproj(what = "what", role = "role", text = "text", href = "href")
 ```
