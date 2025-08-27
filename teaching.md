@@ -5,8 +5,14 @@ in the last few years. All of the courses are offered to PhD students, post-docs
 and other high-level researchers in Sweden ([NBIS](https://nbis.se/){:target="blank"}),
 Switzerland ([SIB](https://www.sib.swiss/){:target="blank"}) and other countries
 in the [ELIXIR](https://elixir-europe.org/){:target="blank"} network. I am a
-Course Leader for the [Tools for Reproducible Research](https://uppsala.instructure.com/courses/51980){:target="blank"}
-NBIS course. I have taught in both classroom and online settings.
+Course Leader for the _Tools for Reproducible Research_ and _Principles and
+tools for FAIR research practices_ NBIS courses. I have taught in both classroom
+and online settings.
+
+## 2025
+
+**[Principles and tools for FAIR research practices](https://uppsala.instructure.com/courses/111591){:target="blank"}**
+<br> NBIS, Stockholm (Sweden), 5 days
 
 ## 2024
 
