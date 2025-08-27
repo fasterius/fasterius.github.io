@@ -172,6 +172,7 @@ tibble::tribble(
     "Quarto nf-core template", "(creator \\& maintainer)", "A Quarto template for the nf-core community.", "https://github.com/fasterius/nf-core-quarto-template",
     "simple-zoom.nvim", "(creator \\& maintainer)", "A simple plugin to add a Tmux-like zoom functionality to Neovim.", "https://github.com/fasterius/simple-zoom.nvim",
     "slime-peek.nvim", "(creator \\& maintainer)", "A Neovim plugin for working with data exploration within R and Python.", "https://github.com/fasterius/slime-peek.nvim",
+    "Scripts and utilities", "(creator \\& maintainer)", "Several open source scripts and utilities used in my day-to-day workflow.", "https://github.com/fasterius/dotfiles"
 ) |>
     cvproj(what = "what", role = "role", text = "text", href = "href")
 ```
